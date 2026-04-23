@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Event Listeners
     document.getElementById('login-form')?.addEventListener('submit', handleLogin);
+    document.getElementById('register-form')?.addEventListener('submit', handleRegister);
     document.getElementById('chat-form')?.addEventListener('submit', handleChat);
     document.getElementById('safety-form')?.addEventListener('submit', handleSafetyCheck);
 });
@@ -82,6 +83,35 @@ async function handleLogin(e) {
         const data = await resp.json();
         authToken = data.access_token;
         localStorage.setItem('token', authToken);
+        initApp();
+    } catch (err) {
+        alert(err.message);
+    }
+}
+
+async function handleRegister(e) {
+    e.preventDefault();
+    const full_name = document.getElementById('reg-name').value;
+    const username = document.getElementById('reg-username').value;
+    const email = document.getElementById('reg-email').value;
+    const password = document.getElementById('reg-password').value;
+
+    try {
+        const resp = await fetch(`${API_BASE}/auth/register`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, username, password, full_name, role: 'guest' })
+        });
+
+        if (!resp.ok) {
+            const errData = await resp.json();
+            throw new Error(errData.detail || "Registration failed");
+        }
+
+        const data = await resp.json();
+        authToken = data.access_token;
+        localStorage.setItem('token', authToken);
+        alert("Registration successful!");
         initApp();
     } catch (err) {
         alert(err.message);
