@@ -14,6 +14,7 @@ All routes are prefixed with /api/v1/
 
 from contextlib import asynccontextmanager
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from loguru import logger
 import sys
@@ -37,23 +38,20 @@ logger.add(
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application startup and shutdown events."""
-    logger.info("🚀 Starting CrisisBridge AI...")
+    logger.info("Starting CrisisBridge AI...")
     
     # Initialize database tables
     try:
         init_db()
-        logger.info("✅ Database initialized")
+        logger.info("Database initialized")
     except Exception as e:
-        logger.error(f"❌ Database init failed: {e}")
+        logger.error(f"Database init failed: {e}")
     
-    # TODO: Person 3 — Initialize Redis connection check here
-    # TODO: Person 2 — Load FAISS index here
-    
-    logger.info("✅ CrisisBridge AI is ready!")
+    logger.info("CrisisBridge AI is ready!")
     yield
     
     # Shutdown
-    logger.info("🛑 Shutting down CrisisBridge AI...")
+    logger.info("Shutting down CrisisBridge AI...")
 
 
 # ── Create FastAPI app ───────────────────────────
@@ -77,36 +75,40 @@ app.add_middleware(
 
 # ═══════════════════════════════════════════════════════════
 # ROUTER REGISTRATION
-# Each person adds their router below.
-# Pattern: from <module>.routes import router as <name>_router
 # ═══════════════════════════════════════════════════════════
 
-# ── Person 1: Incident & Safety Routes ──────────
-# Uncomment when Person 1's routes are ready:
-# from incidents.routes import router as incidents_router
-# app.include_router(incidents_router, prefix=f"{settings.API_PREFIX}/incidents", tags=["Incidents"])
-# from incidents.safety_routes import router as safety_router
-# app.include_router(safety_router, prefix=f"{settings.API_PREFIX}/safety", tags=["Safety"])
+# ── Person 1: Incident & Safety Routes (MOCKED) ──────────
+from incidents.mock_routes import router as incidents_router
+app.include_router(incidents_router, prefix=f"{settings.API_PREFIX}/incidents", tags=["Incidents"])
 
-# ── Person 2: AI Query Routes ───────────────────
-# Uncomment when Person 2's routes are ready:
-# from ai_core.routes import router as ai_router
-# app.include_router(ai_router, prefix=f"{settings.API_PREFIX}/ai", tags=["AI Assistant"])
+# ── Person 2: AI Query Routes (MOCKED) ───────────────────
+# Real logic is in ai_core.main.process_query (mocked for now)
 
-# ── Person 3: Auth, Feedback, Notifications ─────
-# Uncomment when Person 3's routes are ready:
-# from backend.api.auth import router as auth_router
-# app.include_router(auth_router, prefix=f"{settings.API_PREFIX}/auth", tags=["Auth"])
-# from backend.api.feedback import router as feedback_router
-# app.include_router(feedback_router, prefix=f"{settings.API_PREFIX}/feedback", tags=["Feedback"])
-# from backend.api.notifications import router as notifications_router
-# app.include_router(notifications_router, prefix=f"{settings.API_PREFIX}/notifications", tags=["Notifications"])
-# from backend.api.query import router as query_router
-# app.include_router(query_router, prefix=f"{settings.API_PREFIX}/query", tags=["Query"])
+# ── Person 3: Auth, Feedback, Notifications, Safety, Logs ─────
+from backend.api.auth import router as auth_router
+app.include_router(auth_router, prefix=f"{settings.API_PREFIX}/auth", tags=["Auth"])
+
+from backend.api.users import router as users_router
+app.include_router(users_router, prefix=f"{settings.API_PREFIX}/users", tags=["Users"])
+
+from backend.api.feedback import router as feedback_router
+app.include_router(feedback_router, prefix=f"{settings.API_PREFIX}/feedback", tags=["Feedback"])
+
+from backend.api.notifications import router as notifications_router
+app.include_router(notifications_router, prefix=f"{settings.API_PREFIX}/notifications", tags=["Notifications"])
+
+from backend.api.query import router as query_router
+app.include_router(query_router, prefix=f"{settings.API_PREFIX}/query", tags=["Query"])
+
+from backend.api.safety import router as safety_router
+app.include_router(safety_router, prefix=f"{settings.API_PREFIX}/safety", tags=["Safety"])
+
+from backend.api.logs import router as logs_router
+app.include_router(logs_router, prefix=f"{settings.API_PREFIX}/logs", tags=["Logs"])
 
 
 # ═══════════════════════════════════════════════════════════
-# HEALTH CHECK (Available immediately — no auth required)
+# HEALTH CHECK & ROOT
 # ═══════════════════════════════════════════════════════════
 
 @app.get(f"{settings.API_PREFIX}/health", tags=["Health"])
@@ -119,11 +121,15 @@ async def health_check():
     }
 
 
-@app.get("/", tags=["Root"])
-async def root():
-    """Root endpoint — redirects to docs."""
-    return {
-        "message": f"Welcome to {settings.APP_NAME}",
-        "docs": "/docs",
-        "health": f"{settings.API_PREFIX}/health",
-    }
+
+# ═══════════════════════════════════════════════════════════
+# FRONTEND SERVING
+# ═══════════════════════════════════════════════════════════
+
+# Mount the frontend directory to serve index.html and assets
+app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="127.0.0.1", port=8000, reload=True)
