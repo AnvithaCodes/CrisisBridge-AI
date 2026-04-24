@@ -29,7 +29,12 @@ const Register = () => {
       await register(formData);
       navigate('/dashboard');
     } catch (err) {
-      setError(err.response?.data?.detail || 'Registration failed. Please try again.');
+      const detail = err.response?.data?.detail;
+      if (Array.isArray(detail)) {
+        setError(detail.map(d => d.msg).join(', '));
+      } else {
+        setError(detail || 'Registration failed. Please try again.');
+      }
     } finally {
       setLoading(false);
     }

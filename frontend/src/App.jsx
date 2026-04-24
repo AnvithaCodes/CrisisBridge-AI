@@ -8,6 +8,9 @@ import Dashboard from './views/Dashboard';
 import Chat from './views/Chat';
 import Safety from './views/Safety';
 import Logs from './views/Logs';
+import Users from './views/Users';
+import LiveChat from './views/LiveChat';
+import Sensors from './views/Sensors';
 
 const ProtectedRoute = ({ children }) => {
   const { token, loading } = useAuth();
@@ -41,6 +44,18 @@ const AppContent = () => {
           <Route 
             path="/logs" 
             element={<ProtectedRoute><Logs /></ProtectedRoute>} 
+          />
+          <Route 
+            path="/users" 
+            element={<ProtectedRoute><Users /></ProtectedRoute>} 
+          />
+          <Route 
+            path="/live-support" 
+            element={<ProtectedRoute><LiveChat /></ProtectedRoute>} 
+          />
+          <Route 
+            path="/sensors" 
+            element={<ProtectedRoute><Sensors /></ProtectedRoute>} 
           />
           <Route path="/" element={<Navigate to="/dashboard" />} />
         </Routes>

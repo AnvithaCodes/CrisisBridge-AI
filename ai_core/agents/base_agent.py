@@ -1,7 +1,9 @@
 import logging
+import time
 from typing import Any, Dict
 from google import genai
 from google.genai import types
+from google.genai import errors
 from ai_core.config import ai_config
 
 logger = logging.getLogger(__name__)
@@ -53,16 +55,38 @@ class BaseAgent:
             
         config = types.GenerateContentConfig(**config_kwargs)
 
-        try:
-            response = self.client.models.generate_content(
-                model=ai_config.GEMINI_MODEL,
-                contents=prompt,
-                config=config
-            )
-            return response.text
-        except Exception as e:
-            logger.error(f"Error in {self.__class__.__name__}: {str(e)}")
-            raise e
+        # Try models in order; fall through to next only on transient server errors
+        model_fallback_chain = [
+            ai_config.GEMINI_MODEL,  # Primary: gemini-2.5-flash
+            "gemini-2.0-flash-lite", # Fallback 1: lighter model, higher free quota
+            "gemini-2.0-flash",      # Fallback 2: stable, larger quota
+        ]
+
+        last_error = None
+        for model in model_fallback_chain:
+            try:
+                logger.info(f"[{self.__class__.__name__}] Trying model: {model}")
+                response = self.client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=config
+                )
+                return response.text
+            except Exception as e:
+                error_str = str(e)
+                is_transient = any(k in error_str for k in ("503", "429", "UNAVAILABLE", "RESOURCE_EXHAUSTED"))
+                if is_transient:
+                    logger.warning(f"[{self.__class__.__name__}] Model '{model}' unavailable, trying next fallback...")
+                    last_error = e
+                    time.sleep(1)
+                    continue
+                else:
+                    # Hard error (404 not found, auth, etc.) — fail immediately
+                    logger.error(f"Error in {self.__class__.__name__}: {error_str}")
+                    raise e
+
+        logger.error(f"[{self.__class__.__name__}] All models in fallback chain exhausted.")
+        raise last_error
 
     def _get_mock_response(self) -> str:
         """Override this in subclasses to provide specific mock data."""

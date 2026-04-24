@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { ShieldAlert, LayoutDashboard, MessageSquare, ShieldCheck, LogOut, Bell, Info } from 'lucide-react';
+import { ShieldAlert, LayoutDashboard, MessageSquare, ShieldCheck, LogOut, Bell, Info, Users, HeadphonesIcon, Activity } from 'lucide-react';
 import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useAuth } from '../context/AuthContext';
@@ -68,14 +68,39 @@ const Navbar = () => {
           <ShieldCheck size={18} />
           Safety Check
         </Link>
-        {user?.role === 'admin' && (
+        <Link 
+          to="/live-support" 
+          className={`btn btn-ghost ${isActive('/live-support') ? 'active' : ''}`}
+        >
+          <HeadphonesIcon size={18} />
+          Live Support
+        </Link>
+        {(user?.role === 'admin' || user?.role === 'staff') && (
           <Link 
-            to="/logs" 
-            className={`btn btn-ghost ${isActive('/logs') ? 'active' : ''}`}
+            to="/sensors" 
+            className={`btn btn-ghost ${isActive('/sensors') ? 'active' : ''}`}
           >
-            <Info size={18} />
-            System Logs
+            <Activity size={18} />
+            Sensors
           </Link>
+        )}
+        {user?.role === 'admin' && (
+          <>
+            <Link 
+              to="/users" 
+              className={`btn btn-ghost ${isActive('/users') ? 'active' : ''}`}
+            >
+              <Users size={18} />
+              Manage Users
+            </Link>
+            <Link 
+              to="/logs" 
+              className={`btn btn-ghost ${isActive('/logs') ? 'active' : ''}`}
+            >
+              <Info size={18} />
+              System Logs
+            </Link>
+          </>
         )}
       </div>
 

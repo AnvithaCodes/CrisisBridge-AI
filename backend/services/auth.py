@@ -66,13 +66,18 @@ def register_user(db: Session, user_data: UserRegister) -> User:
             detail="Username already taken"
         )
     
+    # The very first user to register becomes the Admin. Everyone else is a Guest.
+    from shared.enums import UserRole
+    user_count = db.query(User).count()
+    assigned_role = UserRole.ADMIN if user_count == 0 else UserRole.GUEST
+    
     # Create new user
     new_user = User(
         email=user_data.email,
         username=user_data.username,
         hashed_password=hash_password(user_data.password),
         full_name=user_data.full_name,
-        role=user_data.role
+        role=assigned_role
     )
     
     db.add(new_user)

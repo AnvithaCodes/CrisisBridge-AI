@@ -24,8 +24,8 @@ class AIConfig:
     @property
     def MOCK_MODE(self) -> bool:
         """If True, skips API calls and returns hardcoded responses for UI testing."""
-        # Toggle this to True when Person 3 is testing UI to save your credits!
-        return False
+        # ⚠️ MOCK MODE ON — flip back to False once Gemini quota resets!
+        return True
 
     # ── Gemini LLM ───────────────────────────────
     @property
@@ -44,9 +44,9 @@ class AIConfig:
         """Gemini model for text generation (agents)."""
         # Map shared config's LLM_MODEL to Gemini model names
         model = settings.LLM_MODEL
-        # If user hasn't changed from default, use Gemini flash lite (guaranteed free tier quota)
+        # If user hasn't changed from default, use Gemini 2.5 flash
         if model in ("gpt-3.5-turbo", "gpt-4"):
-            return "gemini-1.5-flash"
+            return "gemini-2.5-flash"
         return model
 
     @property
