@@ -56,7 +56,7 @@ class DocumentLoader:
         metadata = {"source": file_path.name, "path": str(file_path)}
         
         try:
-            if ext == ".txt":
+            if ext in (".txt", ".md"):
                 content = file_path.read_text(encoding="utf-8")
                 return Document(content=content, metadata=metadata)
                 

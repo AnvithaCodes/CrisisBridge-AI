@@ -126,8 +126,29 @@ async def health_check():
 # FRONTEND SERVING
 # ═══════════════════════════════════════════════════════════
 
-# Mount the frontend directory to serve index.html and assets
-app.mount("/", StaticFiles(directory="frontend", html=True), name="frontend")
+# Serve the built React frontend
+app.mount("/assets", StaticFiles(directory="frontend/dist/assets"), name="assets")
+
+@app.get("/{full_path:path}")
+async def serve_frontend(full_path: str):
+    # If the path looks like an API call, don't serve index.html
+    if full_path.startswith("api/"):
+        from fastapi import HTTPException
+        raise HTTPException(status_code=404)
+        
+    from fastapi.responses import FileResponse
+    import os
+    
+    # Path to the build/index.html
+    index_file = os.path.join("frontend", "dist", "index.html")
+    if os.path.exists(index_file):
+        response = FileResponse(index_file)
+        response.headers["Cache-Control"] = "no-cache, no-store, must-revalidate"
+        response.headers["Pragma"] = "no-cache"
+        response.headers["Expires"] = "0"
+        return response
+    
+    return {"message": "Frontend build not found. Please run 'npm run build' in the frontend directory."}
 
 
 if __name__ == "__main__":

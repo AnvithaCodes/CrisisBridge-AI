@@ -24,21 +24,21 @@ class RAGIngestor:
         """
         Runs the full pipeline. Rebuilds the index from scratch by default.
         """
-        print(f"🚀 Starting RAG Ingestion Pipeline")
+        print(f"[INFO] Starting RAG Ingestion Pipeline")
         start_time = time.time()
         
         # 1. Load
         print(f"Loading documents from {self.data_dir}...")
         documents = self.loader.load_all()
         if not documents:
-            print("❌ No documents found to ingest.")
+            print("[ERROR] No documents found to ingest.")
             return {"status": "error", "message": "No documents found."}
-        print(f"✅ Loaded {len(documents)} documents.")
+        print(f"[SUCCESS] Loaded {len(documents)} documents.")
         
         # 2. Chunk
         print("Chunking documents...")
         chunks = self.chunker.chunk_documents(documents)
-        print(f"✅ Created {len(chunks)} text chunks.")
+        print(f"[SUCCESS] Created {len(chunks)} text chunks.")
         
         # 3. Embed
         print("Generating embeddings via Google Gemini API...")
@@ -46,7 +46,7 @@ class RAGIngestor:
         # For small datasets (< 100 chunks), doing it all at once is fine
         texts_to_embed = [chunk.content for chunk in chunks]
         embeddings = self.embedder.embed_texts(texts_to_embed)
-        print(f"✅ Generated embeddings shape: {embeddings.shape}")
+        print(f"[SUCCESS] Generated embeddings shape: {embeddings.shape}")
         
         # 4. Store
         print("Storing in FAISS...")
@@ -56,10 +56,10 @@ class RAGIngestor:
         
         self.vector_store.add_embeddings(chunks, embeddings)
         self.vector_store.save()
-        print(f"✅ Saved FAISS index to {self.index_dir}")
+        print(f"[SUCCESS] Saved FAISS index to {self.index_dir}")
         
         end_time = time.time()
-        print(f"🎉 Ingestion complete in {end_time - start_time:.2f} seconds!")
+        print(f"[SUCCESS] Ingestion complete in {end_time - start_time:.2f} seconds!")
         
         return {
             "status": "success",

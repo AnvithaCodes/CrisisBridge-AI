@@ -16,7 +16,7 @@ def main():
     # Check if MOCK_MODE is on. If it is, the Gemini API won't work properly
     # for embeddings because it might skip the call.
     if ai_config.MOCK_MODE:
-        print("⚠️ WARNING: MOCK_MODE is currently set to True in ai_core/config.py!")
+        print("[WARNING] WARNING: MOCK_MODE is currently set to True in ai_core/config.py!")
         print("This script needs to call the real Gemini API to generate embeddings.")
         print("Please temporarily set MOCK_MODE to False, run this script, and then")
         print("you can set it back to True if you wish.")
@@ -35,19 +35,19 @@ def main():
         result = ingestor.run_ingestion()
         
         if result.get("status") == "success":
-            print("\n✅ Setup complete! The AI is now ready to answer questions.")
+            print("\n[SUCCESS] Setup complete! The AI is now ready to answer questions.")
             print(f"Processed {result['documents_processed']} documents into {result['chunks_created']} chunks.")
         else:
-            print(f"\n❌ Ingestion failed: {result.get('message')}")
+            print(f"\n[ERROR] Ingestion failed: {result.get('message')}")
             
     except ValueError as e:
         if "GEMINI_API_KEY" in str(e):
-            print("\n❌ Error: Missing Gemini API Key.")
+            print("\n[ERROR] Error: Missing Gemini API Key.")
             print("Please add LLM_API_KEY=your-api-key-here to your .env file.")
         else:
-            print(f"\n❌ Error: {str(e)}")
+            print(f"\n[ERROR] Error: {str(e)}")
     except Exception as e:
-        print(f"\n❌ Unexpected error: {str(e)}")
+        print(f"\n[ERROR] Unexpected error: {str(e)}")
 
 if __name__ == "__main__":
     main()

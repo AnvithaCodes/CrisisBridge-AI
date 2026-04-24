@@ -46,7 +46,7 @@ class AIConfig:
         model = settings.LLM_MODEL
         # If user hasn't changed from default, use Gemini flash lite (guaranteed free tier quota)
         if model in ("gpt-3.5-turbo", "gpt-4"):
-            return "gemini-2.5-flash-lite"
+            return "gemini-1.5-flash"
         return model
 
     @property
