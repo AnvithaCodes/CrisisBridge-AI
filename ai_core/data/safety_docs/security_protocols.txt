@@ -1,0 +1,148 @@
+CRISISBRIDGE AI — SECURITY INCIDENT PROTOCOL
+Hotel & Resort Emergency Guidelines
+=========================================
+
+1. TYPES OF SECURITY INCIDENTS
+
+1.1 Suspicious Person/Activity:
+- Unknown individual loitering in restricted areas
+- Person attempting to access guest rooms without a key
+- Individual photographing security equipment or restricted areas
+- Person behaving erratically or aggressively
+
+1.2 Theft:
+- Guest room burglary
+- Theft from common areas (lobby, pool, restaurant)
+- Vehicle break-in (parking lot)
+- Employee theft
+
+1.3 Unauthorized Access:
+- Entry into staff-only areas
+- Trespassing on resort grounds
+- Tailgating through secure doors
+
+1.4 Assault or Violence:
+- Physical altercation between guests
+- Domestic disturbance in guest rooms
+- Threats against staff or guests
+
+1.5 Active Threat:
+- Armed individual on property
+- Bomb threat
+- Hostage situation
+
+2. RESPONSE PROCEDURES
+
+2.1 Suspicious Person:
+- Do NOT confront the individual directly
+- Observe and note: appearance, clothing, direction of movement, any vehicle
+- Report to hotel security immediately (dial security extension)
+- Security will assess and respond
+- If the person is in a guest area, politely ask "May I help you?" to determine if they are a guest
+- If they cannot provide a room number or guest name, escort them to the lobby
+
+2.2 Theft Response:
+For Guests:
+- Report the theft to the front desk immediately
+- Do NOT touch or disturb the scene
+- Make a list of stolen items with descriptions and approximate values
+- Hotel staff will contact local police
+- Request a copy of the police report for insurance purposes
+- Check if the hotel safe was available and whether valuable items were secured
+
+For Staff:
+- Secure the area where the theft occurred
+- Review CCTV footage if available
+- Interview witnesses
+- File a police report
+- Document everything in the incident log
+
+2.3 Unauthorized Access:
+- Challenge unknown individuals in restricted areas: "Excuse me, can I help you?"
+- If they claim to be a guest, verify with the front desk
+- If they are not authorized, politely escort them out
+- Report the incident to security
+- Review and reinforce access control measures
+
+2.4 Assault/Violence:
+- Personal safety is the top priority — do NOT put yourself at risk
+- Call security and police immediately
+- If safe, try to de-escalate verbally: speak calmly, do not argue
+- Clear other guests from the area
+- If someone is injured, call for medical assistance
+- Document the incident thoroughly
+- Offer support to victims (first aid, private area, contact information for local support services)
+
+2.5 Active Threat — RUN, HIDE, FIGHT:
+RUN:
+- If there is an accessible escape path, attempt to evacuate
+- Leave belongings behind
+- Help others escape if possible
+- Prevent others from entering the danger zone
+- Call 911 when safe
+
+HIDE:
+- If evacuation is not possible, find a place to hide
+- Lock and barricade doors
+- Turn off lights
+- Silence phones
+- Stay quiet and out of sight
+- Hide behind large objects (desks, beds)
+
+FIGHT:
+- As a LAST resort, and only if your life is in immediate danger
+- Act with physical aggression
+- Use improvised weapons (fire extinguisher, chair, lamp)
+- Commit to your actions — your life depends on it
+
+3. BEACH AND POOL AREA SECURITY (RESORT-SPECIFIC)
+
+3.1 Beach Security:
+- Security patrols should cover beach areas every 30 minutes during operating hours
+- Guest wristbands or key cards required for access to private beach areas
+- Report unregistered individuals on private beach to security
+- Secure any rental equipment (kayaks, paddleboards) when not in use
+- Monitor for unauthorized vendors on resort beach
+
+3.2 Pool Area Security:
+- Pool area is for registered guests only — key card access required
+- No glass containers in the pool area
+- Security cameras should cover all pool entrances
+- Theft of personal belongings at poolside: report immediately
+- Intoxicated individuals must be asked to leave the pool area for safety
+
+4. REPORTING AND DOCUMENTATION
+
+4.1 Incident Report Must Include:
+- Date, time, and exact location of the incident
+- Names and room numbers of involved parties
+- Description of what happened (factual, not opinion)
+- Names of witnesses
+- Actions taken by staff
+- Any police involvement (officer names, badge numbers, report number)
+- Photographs of any evidence or damage
+
+4.2 Guest Communication:
+- Inform affected guests of actions taken
+- Provide police report numbers when available
+- Offer room changes if the guest feels unsafe
+- Maintain confidentiality — do not discuss incidents with uninvolved guests
+- Follow up with affected guests within 24 hours
+
+5. PREVENTION MEASURES
+
+- All exterior doors should be locked after 10 PM (guest key card access only)
+- CCTV cameras at all entrances, parking areas, and common spaces
+- Adequate lighting in all parking areas, pathways, and building exteriors
+- Staff training on recognizing suspicious behavior
+- Regular security patrols of all floors and resort areas
+- Guest room safes available in every room
+- "Do Not Disturb" signs should not be honored beyond 24 hours without a welfare check
+- Buddy system for staff working late shifts
+
+6. EMERGENCY CONTACTS
+
+- Hotel Security: Dial extension [configure per property]
+- Local Police: 911 (emergency) or [local non-emergency number]
+- Front Desk: Dial 0
+- General Manager on duty: [configure per property]

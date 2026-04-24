@@ -1,0 +1,67 @@
+CRISISBRIDGE AI — CRISIS COMMUNICATION PROTOCOL
+Hotel & Resort Emergency Guidelines
+=========================================
+
+1. CENTRALIZED REPORTING & "THE SINGLE SOURCE OF TRUTH"
+
+1.1 The CrisisBridge Dashboard:
+- During any emergency, the CrisisBridge Incident Dashboard is the SINGLE SOURCE OF TRUTH for all staff.
+- Do NOT rely on verbal rumors or fragmented text chains.
+- All staff must check the dashboard for real-time status updates, incident locations, and assigned responders.
+- The dashboard syncs across all devices to eliminate fragmented communication.
+
+1.2 Reporting an Incident (Guests & Staff):
+- Use the CrisisBridge "Panic Button" or report feature in the app.
+- This immediately logs the incident type, location, and timestamp into the central system.
+- If a guest reports an emergency verbally to a staff member, the staff member MUST log it into the CrisisBridge system immediately to trigger the coordinated response.
+
+2. COMMUNICATION WITH EMERGENCY SERVICES (911)
+
+2.1 Who Calls 911?
+- ANY staff member or guest who witnesses a life-threatening emergency (fire, severe medical, active threat) should call 911 immediately.
+- Do NOT wait for management approval to call 911 if lives are at risk.
+- Once 911 is called, notify the Front Desk (dial 0) and log it in the CrisisBridge system.
+
+2.2 What to Tell 911 Dispatch:
+- Your name and title.
+- The hotel/resort name and exact street address.
+- The EXACT location of the emergency (Floor 4, Room 412, or "Main Pool Deck").
+- The nature of the emergency and number of people involved.
+- Stay on the line until the dispatcher tells you to hang up.
+
+3. STAFF-TO-STAFF COMMUNICATION
+
+3.1 The Incident Commander:
+- The General Manager (or highest-ranking manager on duty) becomes the Incident Commander (IC).
+- The IC operates from the Front Desk or a safe command post.
+- The IC is responsible for assigning tasks via the CrisisBridge dashboard.
+
+3.2 Two-Way Radios (Walkie-Talkies):
+- Keep radio communication BRIEF and PROFESSIONAL.
+- Use plain language (no confusing codes like "Code Red" — say "Fire in Room 302").
+- Do not transmit sensitive guest information (names, room numbers) over public radio channels unless necessary for immediate safety. Use the CrisisBridge app for secure data sharing.
+
+4. GUEST COMMUNICATION
+
+4.1 Guiding Principles:
+- Be CALM, CLEAR, and CONFIDENT.
+- Provide factual information, not speculation.
+- Do NOT say "Everything is fine" if it is not. Instead, say "We are handling the situation, please follow my instructions."
+
+4.2 Automated Mass Broadcasts:
+- The Incident Commander can trigger mass alerts via the CrisisBridge system.
+- Examples of clear broadcasts:
+  - "Attention guests: A fire has been reported on Floor 3. All guests on Floors 2, 3, and 4 must evacuate via the stairs immediately."
+  - "Attention guests: We are sheltering in place due to severe weather. Please remain in your rooms away from windows."
+
+4.3 Interacting with Distressed Guests:
+- Empathy first: "I understand you are scared, I am here to help you."
+- Clear directions: "I need you to leave your bags and walk to the exit with me now."
+- If guests refuse to evacuate, do not argue or physically force them. Note their room number and report it to the Incident Commander/Fire Department.
+
+5. MEDIA AND EXTERNAL COMMUNICATION
+
+- Staff members are NOT authorized to speak to the media.
+- If approached by a reporter, reply: "Our priority right now is the safety of our guests and staff. Our designated spokesperson will provide a statement shortly."
+- Do NOT post photos, videos, or status updates about the ongoing emergency on personal social media accounts.
+- The General Manager or corporate PR team will handle all external statements.

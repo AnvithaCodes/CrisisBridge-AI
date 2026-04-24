@@ -1,0 +1,378 @@
+[
+  {
+    "content": "CRISISBRIDGE AI — CRISIS COMMUNICATION PROTOCOL\nHotel & Resort Emergency Guidelines\n=========================================\n\n1. CENTRALIZED REPORTING & \"THE SINGLE SOURCE OF TRUTH\"\n\n1.1 The CrisisBridge Dashboard:\n- During any emergency, the CrisisBridge Incident Dashboard is the SINGLE SOURCE OF TRUTH for all staff.\n- Do NOT rely on verbal rumors or fragmented text chains.\n- All staff must check the dashboard for real-time status updates, incident locations, and assigned responders.\n- The dashboard syncs across all devices to eliminate fragmented communication.\n\n1.2 Reporting an Incident (Guests & Staff):\n- Use the CrisisBridge \"Panic Button\" or report feature in the app.\n- This immediately logs the incident type, location, and timestamp into the central system.\n- If a guest reports an emergency verbally to a staff member, the staff member MUST log it into the CrisisBridge system immediately to trigger the coordinated response.\n\n2. COMMUNICATION WITH EMERGENCY SERVICES (911)\n\n2.1 Who Calls 911?\n- ANY staff member or guest who witnesses a life-threatening emergency (fire, severe medical, active threat) should call 911 immediately.\n- Do NOT wait for management approval to call 911 if lives are at risk.\n- Once 911 is called, notify the Front Desk (dial 0) and log it in the CrisisBridge system.",
+    "metadata": {
+      "source": "crisis_communication_protocol.txt",
+      "path": "ai_core\\data\\safety_docs\\crisis_communication_protocol.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "2.2 What to Tell 911 Dispatch:\n- Your name and title.\n- The hotel/resort name and exact street address.\n- The EXACT location of the emergency (Floor 4, Room 412, or \"Main Pool Deck\").\n- The nature of the emergency and number of people involved.\n- Stay on the line until the dispatcher tells you to hang up.\n\n3. STAFF-TO-STAFF COMMUNICATION\n\n3.1 The Incident Commander:\n- The General Manager (or highest-ranking manager on duty) becomes the Incident Commander (IC).\n- The IC operates from the Front Desk or a safe command post.\n- The IC is responsible for assigning tasks via the CrisisBridge dashboard.\n\n3.2 Two-Way Radios (Walkie-Talkies):\n- Keep radio communication BRIEF and PROFESSIONAL.\n- Use plain language (no confusing codes like \"Code Red\" — say \"Fire in Room 302\").\n- Do not transmit sensitive guest information (names, room numbers) over public radio channels unless necessary for immediate safety. Use the CrisisBridge app for secure data sharing.\n\n4. GUEST COMMUNICATION\n\n4.1 Guiding Principles:\n- Be CALM, CLEAR, and CONFIDENT.\n- Provide factual information, not speculation.\n- Do NOT say \"Everything is fine\" if it is not. Instead, say \"We are handling the situation, please follow my instructions.\"",
+    "metadata": {
+      "source": "crisis_communication_protocol.txt",
+      "path": "ai_core\\data\\safety_docs\\crisis_communication_protocol.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "4.2 Automated Mass Broadcasts:\n- The Incident Commander can trigger mass alerts via the CrisisBridge system.\n- Examples of clear broadcasts:\n  - \"Attention guests: A fire has been reported on Floor 3. All guests on Floors 2, 3, and 4 must evacuate via the stairs immediately.\"\n  - \"Attention guests: We are sheltering in place due to severe weather. Please remain in your rooms away from windows.\"\n\n4.3 Interacting with Distressed Guests:\n- Empathy first: \"I understand you are scared, I am here to help you.\"\n- Clear directions: \"I need you to leave your bags and walk to the exit with me now.\"\n- If guests refuse to evacuate, do not argue or physically force them. Note their room number and report it to the Incident Commander/Fire Department.\n\n5. MEDIA AND EXTERNAL COMMUNICATION\n\n- Staff members are NOT authorized to speak to the media.\n- If approached by a reporter, reply: \"Our priority right now is the safety of our guests and staff. Our designated spokesperson will provide a statement shortly.\"\n- Do NOT post photos, videos, or status updates about the ongoing emergency on personal social media accounts.\n- The General Manager or corporate PR team will handle all external statements.",
+    "metadata": {
+      "source": "crisis_communication_protocol.txt",
+      "path": "ai_core\\data\\safety_docs\\crisis_communication_protocol.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "CRISISBRIDGE AI — EVACUATION PROCEDURES\nHotel & Resort Emergency Guidelines\n=========================================\n\n1. WHEN TO EVACUATE\n\nEvacuation is required when:\n- Fire alarm is activated\n- Fire or smoke is detected\n- Gas leak is confirmed\n- Structural damage (earthquake, explosion)\n- Flood waters entering the building\n- Bomb threat with credible indicators\n- Any order from emergency services or hotel management\n\n2. EVACUATION PROCEDURE — HOTEL BUILDING\n\n2.1 For Guests:\nStep 1: When you hear the fire alarm or evacuation announcement:\n- Stop what you are doing immediately\n- Take your room key card (for identification purposes)\n- Leave all other belongings behind\n- Put on shoes if readily available\n\nStep 2: Exit your room:\n- Feel the door before opening — if hot, do NOT open it (see \"If Trapped\" below)\n- If the door is cool, open slowly and check the hallway\n- Close your room door behind you (this slows fire spread)\n\nStep 3: Proceed to the nearest exit:\n- Walk, do NOT run\n- Stay low if there is smoke\n- Use the STAIRS — NEVER use elevators during an evacuation\n- Follow the illuminated exit signs and floor markings\n- Hold the handrail in stairwells\n\nStep 4: Exit the building:\n- Go directly to the designated assembly point\n- Do NOT stop in the lobby\n- Do NOT re-enter the building for any reason",
+    "metadata": {
+      "source": "evacuation_procedures.txt",
+      "path": "ai_core\\data\\safety_docs\\evacuation_procedures.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "Step 4: Exit the building:\n- Go directly to the designated assembly point\n- Do NOT stop in the lobby\n- Do NOT re-enter the building for any reason\n\nStep 5: At the assembly point:\n- Report to the staff member conducting the headcount\n- Provide your name and room number\n- Remain at the assembly point until the \"All Clear\" is given\n\n2.2 If Trapped in Your Room:\n- Call 911 and the front desk — tell them your exact room number\n- Seal the door with wet towels or sheets to block smoke\n- Move to the window — open it slightly for fresh air if needed\n- Signal for help: hang a sheet from the window, use a flashlight, or call out\n- Do NOT jump from upper floors\n- Stay low — air is cleaner near the floor\n- Wait for rescue\n\n3. EVACUATION PROCEDURE — RESORT AREAS\n\n3.1 Pool and Water Park Area:\n- Lifeguards will blow continuous whistle blasts\n- Exit the pool/water immediately\n- Do NOT return to lockers for belongings\n- Proceed directly to the Pool Assembly Point (main parking lot)\n- Parents: account for all children immediately\n\n3.2 Beach Area:\n- Beach attendants will announce evacuation\n- Move away from the water\n- Proceed to the Beach Assembly Point (lifeguard station area or beach entrance)\n- If the threat is from the ocean (tsunami warning), move to higher ground IMMEDIATELY\n- Move at least 100 feet inland and 100 feet above sea level if possible",
+    "metadata": {
+      "source": "evacuation_procedures.txt",
+      "path": "ai_core\\data\\safety_docs\\evacuation_procedures.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "3.3 Spa and Wellness Center:\n- Staff will announce evacuation\n- Guests in treatment rooms will be assisted by their therapist\n- Guests in saunas, steam rooms, or jacuzzis: exit immediately\n- Grab a robe or towel for coverage\n- Exit through the spa entrance to the Garden Assembly Point\n\n3.4 Restaurant and Dining Areas:\n- Staff will announce evacuation\n- Leave all food, drinks, and personal items\n- Exit through the nearest restaurant exit\n- Kitchen staff: turn off all cooking equipment before evacuating\n- Proceed to the nearest assembly point\n\n3.5 Conference and Event Rooms:\n- Event staff/coordinator will direct evacuation\n- Do NOT gather equipment or materials\n- Exit through the nearest marked exit\n- Use alternative exits if primary exits are blocked\n\n3.6 Outdoor Activity Areas (Golf, Tennis, Hiking):\n- Activity supervisors will announce evacuation\n- Abandon equipment\n- Proceed to the nearest road or parking area\n- If on hiking trails, return to the trailhead or nearest access point\n\n4. ASSEMBLY POINTS\n\nMain Assembly Points:\n1. FRONT PARKING LOT — Primary (near main entrance/flagpole)\n2. REAR LAWN AREA — Secondary (behind the main building)\n3. POOL DECK — For pool/water park evacuees\n4. BEACH ENTRANCE — For beach area evacuees\n5. GARDEN PATH — For spa/wellness center evacuees",
+    "metadata": {
+      "source": "evacuation_procedures.txt",
+      "path": "ai_core\\data\\safety_docs\\evacuation_procedures.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "At the Assembly Point:\n- Staff will conduct a headcount using the guest registry\n- Missing persons will be reported to emergency services immediately\n- Do NOT leave the assembly point without informing staff\n- Medical aid stations will be set up at each assembly point if needed\n\n5. SPECIAL EVACUATION PROCEDURES\n\n5.1 Guests with Mobility Impairments:\n- Evacuate to the nearest stairwell landing (Area of Rescue Assistance)\n- Call 911 and inform them of the exact stairwell location\n- Staff with evacuation chair training will assist\n- NEVER use elevators unless specifically authorized by the fire department\n- Trained staff should remain with the guest until firefighters arrive\n\n5.2 Guests with Visual Impairments:\n- Staff should announce themselves and offer assistance\n- Guide the guest by allowing them to hold your arm\n- Describe the route verbally as you walk\n- Inform them of stairs, turns, and obstacles\n\n5.3 Guests with Hearing Impairments:\n- Visual alarm strobes will flash in rooms and hallways\n- Staff should make eye contact and use gestures to communicate urgency\n- Write notes if necessary: \"FIRE — FOLLOW ME TO EXIT\"\n- Ensure visual notification devices are functioning in assigned rooms",
+    "metadata": {
+      "source": "evacuation_procedures.txt",
+      "path": "ai_core\\data\\safety_docs\\evacuation_procedures.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "5.4 Children in Kids' Club:\n- Kids' club staff are responsible for ALL children in their care\n- Use the buddy system — pair children together\n- Take the attendance register\n- Evacuate to the designated Kids' Club Assembly Point\n- Contact parents at the assembly point using the registration information\n\n5.5 Pets:\n- Guests with pets should take them if possible\n- Use a leash or carrier\n- If the pet cannot be quickly retrieved, evacuate without it\n- Inform staff that a pet is in the room\n\n6. EVACUATION MAPS\n\n- Evacuation route maps are posted:\n  - On the back of every guest room door\n  - In every hallway (near elevators and stairwells)\n  - In all common areas (lobby, restaurant, gym, spa)\n  - At pool and beach area entrances\n- Maps show: your current location, nearest exits, stairwell locations, assembly points\n- Familiarize yourself with the map upon check-in\n\n7. COMMUNICATION DURING EVACUATION\n\n- PA system announcements will provide instructions\n- Staff with megaphones will be at key locations\n- If the PA system fails, staff will go door-to-door\n- Updates will be communicated at assembly points\n- Guest communication app (if available) will send push notifications\n\n8. AFTER THE EVACUATION",
+    "metadata": {
+      "source": "evacuation_procedures.txt",
+      "path": "ai_core\\data\\safety_docs\\evacuation_procedures.txt",
+      "chunk_index": 4
+    }
+  },
+  {
+    "content": "8. AFTER THE EVACUATION\n\n- Remain at the assembly point until the official \"All Clear\"\n- The \"All Clear\" will be announced via PA system and by staff at assembly points\n- Re-entry will be orderly, floor by floor\n- If the building is deemed unsafe, alternative accommodation will be arranged\n- Hotel management will communicate next steps",
+    "metadata": {
+      "source": "evacuation_procedures.txt",
+      "path": "ai_core\\data\\safety_docs\\evacuation_procedures.txt",
+      "chunk_index": 5
+    }
+  },
+  {
+    "content": "CRISISBRIDGE AI — FIRE SAFETY PROTOCOL\nHotel & Resort Emergency Guidelines\n=========================================\n\n1. IMMEDIATE ACTIONS WHEN FIRE IS DETECTED\n\n1.1 For Guests:\n- If you see fire or smoke, immediately alert others in the area by shouting \"FIRE!\"\n- Do NOT attempt to fight a large fire yourself\n- Feel the door before opening — if it is hot, DO NOT open it\n- If the door is cool, open it slowly and check for smoke in the hallway\n- Stay low to the ground if there is smoke (crawl if necessary)\n- Proceed to the nearest emergency exit — DO NOT use elevators\n- If trapped in your room, seal the door gaps with wet towels\n- Call the front desk (dial 0) or emergency services (dial 911)\n- Go to the designated assembly point in the parking lot or main lawn area\n\n1.2 For Staff:\n- Activate the nearest fire alarm pull station\n- Call the fire department immediately (do not assume someone else has called)\n- Begin evacuating guests from the affected floor\n- Use a buddy system — never enter a fire area alone\n- Report to the Incident Commander at the front lobby\n- Account for all guests using the guest registry\n\n2. FIRE TYPES AND APPROPRIATE RESPONSES",
+    "metadata": {
+      "source": "fire_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\fire_safety.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "2. FIRE TYPES AND APPROPRIATE RESPONSES\n\n2.1 Hotel Room Fire:\n- Most common cause: unattended candles, smoking materials, electrical faults\n- Small fires (wastebasket, curtain): Use the in-room fire extinguisher (PASS technique)\n  P — Pull the pin\n  A — Aim at the base of the fire\n  S — Squeeze the handle\n  S — Sweep side to side\n- If the fire grows beyond a wastebasket size, evacuate immediately\n- Close the door behind you to contain the fire\n\n2.2 Restaurant/Kitchen Fire:\n- Grease fires: NEVER use water — use a Class K fire extinguisher or fire blanket\n- Turn off the heat source immediately\n- If the fire is in a deep fryer, cover with a metal lid\n- Activate the kitchen hood suppression system\n- Evacuate the restaurant and close doors\n\n2.3 Resort Cabin/Villa Fire:\n- Same procedures as hotel room fires\n- Additional concern: cabins may be more isolated — call for help immediately\n- Check surrounding cabins and alert neighbors\n- Clear pathways to allow fire truck access\n\n2.4 Outdoor BBQ/Fire Pit Area:\n- Keep fire extinguisher within 10 feet of any open flame cooking area\n- Never leave a fire pit or BBQ grill unattended\n- In case of fire spread to vegetation, call the fire department immediately\n- Evacuate the outdoor area and move guests indoors or to a safe distance (minimum 100 feet)\n\n3. EVACUATION ROUTES",
+    "metadata": {
+      "source": "fire_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\fire_safety.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "3. EVACUATION ROUTES\n\n3.1 Main Building:\n- Primary exits: Front lobby doors, rear emergency exits\n- Secondary exits: Side stairwell doors on each floor\n- All stairwells lead to ground floor exits\n- Emergency lighting activates automatically during power failure\n- Follow the illuminated exit signs\n\n3.2 Resort Areas:\n- Pool area: Exit through the pool gate to the main parking lot\n- Spa/Wellness center: Exit through the spa entrance to the garden path\n- Beach area: Move away from buildings to the open beach\n- Golf course/activity areas: Move to the nearest road or parking area\n\n4. FIRE PREVENTION MEASURES\n\n- No smoking in guest rooms (designated smoking areas only)\n- Do not overload electrical outlets\n- Report any frayed wires or malfunctioning equipment to maintenance immediately\n- Keep hallways and exits clear of obstructions at all times\n- Fire doors must remain closed at all times — do not prop them open\n- All staff must complete annual fire safety training\n\n5. ASSEMBLY POINTS\n\n- Main Assembly Point: Front parking lot (by the flagpole/main entrance)\n- Secondary Assembly Point: Rear garden/lawn area\n- Resort Activity Assembly Point: Main pool deck\n- Beach Assembly Point: Lifeguard station area\n- Staff must conduct a headcount at the assembly point\n- Do NOT re-enter the building until the \"All Clear\" is given by the fire department\n\n6. SPECIAL CONSIDERATIONS",
+    "metadata": {
+      "source": "fire_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\fire_safety.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "6. SPECIAL CONSIDERATIONS\n\n6.1 Guests with Disabilities:\n- Staff must assist guests with mobility impairments to evacuate\n- Use evacuation chairs available on each floor near the stairwell\n- Visually impaired guests: staff must provide verbal guidance and physical assistance\n- Hearing impaired guests: ensure visual alarm strobes are functioning\n\n6.2 Children and Families:\n- Parents should account for all children immediately\n- Kid's club staff are responsible for evacuating all children in their care\n- Infants: carry them, do not use strollers in stairwells\n\n6.3 Late Night/Early Morning:\n- Night staff must be prepared to wake and evacuate sleeping guests\n- Use loud knocking and verbal commands: \"FIRE! PLEASE EVACUATE!\"\n- Check every room on the affected floor",
+    "metadata": {
+      "source": "fire_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\fire_safety.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "CRISISBRIDGE AI - GENERAL EMERGENCY & UNKNOWN DISASTER PROTOCOL\n\nThis protocol applies to ANY major emergency, disaster, catastrophe, crash (e.g., plane crash, vehicle impact), structural collapse, or unknown critical event that is not explicitly covered in other specific manuals. \n\nIf a guest or staff member reports an immediate, life-threatening emergency or panic situation, follow these Universal Emergency Fallback Steps:\n\n1. REMAIN CALM AND ASSESS\n- Do not panic. Determine your immediate safety.\n- If you are in immediate danger, move away from the threat.\n\n2. EVACUATE THE AREA\n- Leave the building or immediate area immediately using the nearest marked exit.\n- NEVER use elevators during an unknown emergency or structural event. Always use the stairs.\n- Do not return to your room for personal belongings.\n\n3. HELP OTHERS (IF SAFE)\n- Assist guests, the elderly, or those with mobility issues if you can do so without endangering yourself.\n- Guide people toward the designated assembly points outside the hotel.\n\n4. CONTACT AUTHORITIES\n- Call 911 (or local emergency services) immediately once you are in a safe location.\n- Inform the hotel front desk or management about the nature of the emergency and your location.\n\n5. AWAIT INSTRUCTIONS\n- Do not re-enter the building until emergency responders or hotel management declare it is safe.\n- Await further communication via the CrisisBridge system or emergency personnel.",
+    "metadata": {
+      "source": "general_emergency_protocol.txt",
+      "path": "ai_core\\data\\safety_docs\\general_emergency_protocol.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "Remember: In any unknown crisis, the priority is preservation of life. Evacuate, avoid elevators, and seek a safe open space.",
+    "metadata": {
+      "source": "general_emergency_protocol.txt",
+      "path": "ai_core\\data\\safety_docs\\general_emergency_protocol.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "CRISISBRIDGE AI — INFRASTRUCTURE FAILURE PROTOCOL\nHotel & Resort Emergency Guidelines\n=========================================\n\n1. POWER OUTAGE\n\n1.1 Immediate Actions:\n- Emergency generators will activate automatically within 10-30 seconds\n- Emergency lighting will illuminate hallways, stairwells, and exits\n- Elevators will return to the ground floor and open doors automatically\n- If you are in an elevator when power fails, remain calm — press the emergency button\n- Do NOT use candles — use the flashlight on your phone or request one from staff\n\n1.2 Guest Instructions:\n- Remain in your room or current location until staff provides guidance\n- Avoid opening refrigerators/minibars to preserve cold items\n- Report any sparking outlets or burning smells immediately\n- Unplug sensitive electronic devices to protect from power surge when power returns\n- The front desk will communicate updates via door-to-door visits if PA system is down\n\n1.3 Staff Response:\n- Activate emergency operations plan\n- Deploy staff to check all elevators for trapped guests\n- Check on guests with medical equipment that requires electricity\n- Monitor generator fuel levels\n- Contact the power company for estimated restoration time\n- Provide flashlights and candles (battery-operated only) to guests who request them",
+    "metadata": {
+      "source": "infrastructure_failures.txt",
+      "path": "ai_core\\data\\safety_docs\\infrastructure_failures.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "1.4 Extended Outage (over 2 hours):\n- Offer meal service from available cold food items\n- Arrange transportation for guests who wish to leave\n- Provide regular updates (every 30 minutes) on restoration progress\n- Consider relocating guests with medical needs to a facility with power\n- Monitor building temperature (HVAC will be limited to generator capacity)\n\n2. ELEVATOR MALFUNCTION / TRAPPED GUESTS\n\n2.1 If You Are Trapped in an Elevator:\n- Remain calm — you are safe, elevators are designed to be secure spaces\n- Press the EMERGENCY button or ALARM bell\n- Use the emergency phone in the elevator to call for help\n- Do NOT try to force the doors open\n- Do NOT try to climb out through the ceiling hatch\n- Sit down if you feel dizzy or anxious\n- Help will arrive within 15-30 minutes\n\n2.2 Staff Response:\n- Communicate with the trapped guests through the intercom or door\n- Reassure them that help is on the way\n- Call the elevator maintenance company immediately\n- If guests have medical conditions, call emergency services\n- Do NOT attempt to move the elevator manually unless trained\n- Document the incident and follow up with affected guests\n\n3. GAS LEAK\n\n3.1 Signs of a Gas Leak:\n- Smell of rotten eggs or sulfur\n- Hissing or blowing sound near gas lines\n- Dead or dying vegetation near gas lines (outdoor areas)\n- Bubbles in standing water near gas lines\n- Visible damage to gas connections",
+    "metadata": {
+      "source": "infrastructure_failures.txt",
+      "path": "ai_core\\data\\safety_docs\\infrastructure_failures.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "3.2 Immediate Actions:\n- Do NOT turn on or off any electrical switches, lights, or appliances\n- Do NOT use phones, lighters, or matches in the affected area\n- Do NOT start any vehicles in the area\n- Open windows and doors to ventilate if safe to do so\n- Leave the area immediately\n- Move at least 300 feet away from the suspected leak\n- Call the gas company and 911 from a safe distance\n\n3.3 Restaurant Kitchen Gas Leak:\n- Turn off the gas supply at the main shut-off valve (if accessible and safe)\n- Evacuate the kitchen and dining area\n- Do NOT use kitchen exhaust fans (electrical risk)\n- Ventilate by opening exterior doors\n- Do NOT re-enter until the gas company gives the \"All Clear\"\n- Chef/kitchen manager must account for all kitchen staff\n\n4. WATER LEAK / FLOODING\n\n4.1 Minor Water Leak (dripping pipe, toilet overflow):\n- Place towels or buckets to contain the water\n- Call maintenance immediately\n- Turn off the water supply to the affected fixture if possible\n- Move electronic devices and valuables away from the water\n- If the leak is from above, move items away from the drip area\n\n4.2 Major Water Leak / Pipe Burst:\n- Call maintenance and the front desk immediately\n- Turn off the main water supply to the area if trained to do so\n- Turn off electrical power to the affected area (from the breaker panel, only if safe)\n- Evacuate the affected area\n- Move guests to alternative rooms\n- Place \"Wet Floor\" signs to prevent slip hazards\n- Document damage with photographs",
+    "metadata": {
+      "source": "infrastructure_failures.txt",
+      "path": "ai_core\\data\\safety_docs\\infrastructure_failures.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "4.3 Flooding from External Sources (Storm, Rising Water):\n- Monitor weather alerts continuously\n- Activate flood response plan if water approaches the property\n- Move critical equipment and supplies to upper floors\n- Sandbag vulnerable entry points\n- Evacuate ground floor rooms if necessary\n- Cut electrical power to flooded areas from the main panel\n- Do NOT walk through flood water (electrical and contamination hazards)\n\n5. HVAC (HEATING/COOLING) FAILURE\n\n5.1 Air Conditioning Failure (Hot Weather):\n- Open windows for ventilation if available\n- Provide portable fans to guest rooms\n- Offer cold water and ice to guests\n- Move elderly and health-compromised guests to cooled areas\n- Consider relocating guests if temperatures become dangerous (above 90°F/32°C indoors)\n- Monitor guests for signs of heat exhaustion\n\n5.2 Heating Failure (Cold Weather):\n- Provide extra blankets to guest rooms\n- Offer hot beverages in the lobby\n- Move guests to rooms with working heaters or fireplace areas\n- Consider relocating guests if temperatures drop below 55°F/13°C indoors\n- Monitor guests for signs of hypothermia (especially elderly)\n- Check pipe insulation to prevent freezing\n\n6. INTERNET / COMMUNICATIONS FAILURE",
+    "metadata": {
+      "source": "infrastructure_failures.txt",
+      "path": "ai_core\\data\\safety_docs\\infrastructure_failures.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "6. INTERNET / COMMUNICATIONS FAILURE\n\n- Notify guests of the outage\n- Set up an information desk in the lobby for guest inquiries\n- Use walkie-talkies for staff communication\n- Maintain phone lines as backup (landlines often work during internet outages)\n- Provide estimated restoration time from the service provider\n- Offer alternative arrangements for business guests (nearby business center)\n\n7. POOL EQUIPMENT FAILURE (RESORT-SPECIFIC)\n\n7.1 Pool Pump/Filter Failure:\n- Close the pool immediately\n- Post \"Pool Closed\" signage\n- Do NOT allow guests to swim in untreated water\n- Call pool maintenance for emergency repair\n- Test water chemistry before reopening\n- Provide alternative activities for guests\n\n7.2 Water Slide/Attraction Malfunction:\n- Stop all rides immediately\n- Clear all guests from the attraction\n- Secure the area with barriers and signage\n- Call the equipment manufacturer's emergency line\n- Do NOT attempt repairs unless qualified\n- Document the malfunction\n\n8. STRUCTURAL DAMAGE\n\n- If you notice cracks in walls, sagging ceilings, or buckling floors, report immediately\n- Evacuate the affected area\n- Do NOT enter rooms or areas with visible structural damage\n- Call a structural engineer for assessment\n- Cordon off the area with caution tape\n- Relocate affected guests to alternative rooms or properties",
+    "metadata": {
+      "source": "infrastructure_failures.txt",
+      "path": "ai_core\\data\\safety_docs\\infrastructure_failures.txt",
+      "chunk_index": 4
+    }
+  },
+  {
+    "content": "CRISISBRIDGE AI — MEDICAL EMERGENCY PROTOCOL\nHotel & Resort Emergency Guidelines\n=========================================\n\n1. GENERAL MEDICAL EMERGENCY RESPONSE\n\n1.1 First Response Steps:\n- Stay calm and assess the situation\n- Call emergency services immediately (dial 911 or local emergency number)\n- Notify the front desk (dial 0) — they will dispatch trained staff\n- Do NOT move an injured person unless they are in immediate danger\n- Stay with the patient until medical help arrives\n- If trained, begin first aid procedures\n\n1.2 Information to Provide to Emergency Services:\n- Your name and location (hotel name, room number, floor, or specific resort area)\n- Nature of the emergency (what happened)\n- Number of people affected\n- Current condition of the patient(s)\n- Any first aid already administered\n\n2. CPR PROCEDURE (Cardiopulmonary Resuscitation)",
+    "metadata": {
+      "source": "medical_emergency.txt",
+      "path": "ai_core\\data\\safety_docs\\medical_emergency.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "2. CPR PROCEDURE (Cardiopulmonary Resuscitation)\n\n2.1 For Adults:\n- Check for responsiveness — tap shoulders and shout \"Are you okay?\"\n- If unresponsive, call 911 and get an AED (Automated External Defibrillator)\n- Place the person on their back on a firm, flat surface\n- Begin chest compressions:\n  - Place the heel of one hand on the center of the chest\n  - Place the other hand on top, interlace fingers\n  - Push hard and fast: 2 inches deep, rate of 100-120 compressions per minute\n  - Allow full chest recoil between compressions\n- After 30 compressions, give 2 rescue breaths:\n  - Tilt the head back, lift the chin\n  - Pinch the nose, seal your mouth over theirs\n  - Blow for about 1 second, watch for chest rise\n- Continue 30:2 ratio until help arrives or the person recovers\n- If you are not trained in rescue breaths, perform compression-only CPR\n\n2.2 For Children (ages 1-8):\n- Use one hand for compressions\n- Push about 1.5 inches deep\n- Same 30:2 ratio\n\n2.3 For Infants (under 1 year):\n- Use two fingers for compressions on the breastbone\n- Push about 1.5 inches deep\n- Cover both mouth and nose for rescue breaths\n- Use gentle puffs of air\n\n3. AED (Automated External Defibrillator) USE",
+    "metadata": {
+      "source": "medical_emergency.txt",
+      "path": "ai_core\\data\\safety_docs\\medical_emergency.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "3. AED (Automated External Defibrillator) USE\n\n- AED locations in the hotel:\n  - Front lobby (near reception desk)\n  - Each floor (near the elevator lobby)\n  - Pool area (lifeguard station)\n  - Gym/fitness center\n  - Spa reception\n  - Restaurant area\n- How to use:\n  1. Turn on the AED — it will give voice instructions\n  2. Attach the pads to the patient's bare chest as shown in the diagram\n  3. Ensure no one is touching the patient\n  4. Press the \"Analyze\" button\n  5. If a shock is advised, press the \"Shock\" button\n  6. Resume CPR immediately after the shock\n  7. Continue following AED instructions until paramedics arrive\n\n4. CHOKING RESPONSE\n\n4.1 For Adults and Children (over 1 year):\n- Ask \"Are you choking? Can you speak?\"\n- If they cannot speak, cough, or breathe:\n  - Stand behind the person\n  - Make a fist with one hand, place it above the navel\n  - Grasp the fist with the other hand\n  - Perform quick upward thrusts (Heimlich maneuver)\n  - Repeat until the object is expelled or the person becomes unconscious\n- If the person becomes unconscious:\n  - Lower them to the ground\n  - Call 911\n  - Begin CPR — check the mouth for the object before giving breaths\n\n4.2 For Infants (under 1 year):\n- Hold the infant face-down on your forearm\n- Support the head and neck\n- Give 5 back blows between the shoulder blades with the heel of your hand\n- Turn the infant face-up\n- Give 5 chest thrusts (like CPR compressions)\n- Repeat until the object is expelled",
+    "metadata": {
+      "source": "medical_emergency.txt",
+      "path": "ai_core\\data\\safety_docs\\medical_emergency.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "5. ALLERGIC REACTIONS AND ANAPHYLAXIS\n\n- Signs: hives, swelling (face, lips, throat), difficulty breathing, rapid pulse, dizziness\n- If the person has an epinephrine auto-injector (EpiPen):\n  - Help them use it — inject into the outer thigh\n  - Can be used through clothing\n  - Hold in place for 10 seconds\n- Call 911 immediately — even after using an EpiPen\n- Have the person lie down with legs elevated (unless they have breathing difficulty)\n- If breathing is difficult, let them sit upright\n- Be prepared to perform CPR if they become unresponsive\n- Note: Common allergens in hotel/resort settings: shellfish, nuts, bee stings, latex\n\n6. HEATSTROKE AND HEAT EXHAUSTION (RESORT-SPECIFIC)\n\n6.1 Heat Exhaustion:\n- Signs: heavy sweating, weakness, cold/pale/clammy skin, nausea, dizziness\n- Move the person to a cool, air-conditioned area\n- Lay them down and elevate their legs\n- Apply cool, wet cloths to the body\n- Give sips of water (not gulps)\n- If symptoms worsen or last longer than 1 hour, call 911\n\n6.2 Heatstroke (MEDICAL EMERGENCY):\n- Signs: body temperature above 103°F, hot/red/dry skin, rapid pulse, confusion, unconsciousness\n- Call 911 IMMEDIATELY — this is life-threatening\n- Move to a cool area\n- Cool the body rapidly: cold water immersion, ice packs to neck/armpits/groin\n- Do NOT give fluids if the person is unconscious\n- Fan the person while wetting their skin\n\n7. DROWNING AND NEAR-DROWNING (see also Water Safety Protocol)",
+    "metadata": {
+      "source": "medical_emergency.txt",
+      "path": "ai_core\\data\\safety_docs\\medical_emergency.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "7. DROWNING AND NEAR-DROWNING (see also Water Safety Protocol)\n\n- Remove the person from the water immediately\n- Check for breathing and pulse\n- If not breathing, begin CPR immediately\n- Call 911\n- Even if the person recovers, they MUST be evaluated at a hospital\n  (secondary drowning can occur hours later)\n- Keep the person warm with blankets or towels\n\n8. FRACTURES AND SPRAINS\n\n- Do NOT move the injured limb\n- Apply ice wrapped in a cloth (never directly on skin)\n- Elevate the injured area if possible\n- Immobilize the area with a splint or sling if trained\n- Call for medical assistance\n- Common resort injury locations: hiking trails, water slides, gym, wet pool decks\n\n9. BURNS\n\n9.1 Minor Burns (small area, no blistering):\n- Cool the burn under cool running water for at least 10 minutes\n- Do NOT use ice, butter, or ointments\n- Cover with a sterile, non-stick bandage\n- Take over-the-counter pain medication if needed\n\n9.2 Severe Burns (large area, blistering, charred skin):\n- Call 911 immediately\n- Do NOT remove clothing stuck to the burn\n- Do NOT apply water to large severe burns (risk of hypothermia)\n- Cover loosely with a clean, dry cloth\n- Watch for signs of shock\n\n10. WHEN TO CALL EMERGENCY SERVICES",
+    "metadata": {
+      "source": "medical_emergency.txt",
+      "path": "ai_core\\data\\safety_docs\\medical_emergency.txt",
+      "chunk_index": 4
+    }
+  },
+  {
+    "content": "10. WHEN TO CALL EMERGENCY SERVICES\n\nAlways call 911 for:\n- Unconsciousness\n- Difficulty breathing\n- Chest pain\n- Severe bleeding that won't stop\n- Suspected stroke (face drooping, arm weakness, speech difficulty)\n- Seizures\n- Severe allergic reaction\n- Suspected spinal injury\n- Any situation where you are unsure — it is always better to call",
+    "metadata": {
+      "source": "medical_emergency.txt",
+      "path": "ai_core\\data\\safety_docs\\medical_emergency.txt",
+      "chunk_index": 5
+    }
+  },
+  {
+    "content": "CRISISBRIDGE AI — NATURAL DISASTER PROTOCOL\nHotel & Resort Emergency Guidelines\n=========================================\n\n1. EARTHQUAKE\n\n1.1 During the Earthquake:\n- DROP to the ground\n- Take COVER under a sturdy desk, table, or doorframe\n- HOLD ON until the shaking stops\n- Stay AWAY from windows, mirrors, heavy furniture, and hanging objects\n- If in bed, stay there — protect your head with a pillow\n- If outdoors, move to an open area away from buildings, trees, and power lines\n- If near the ocean, move to higher ground immediately after shaking stops (tsunami risk)\n\n1.2 After the Earthquake:\n- Check yourself and others for injuries\n- Expect aftershocks — they can be nearly as strong as the initial quake\n- Do NOT use elevators\n- Exit the building using stairs if safe to do so\n- If you smell gas, leave immediately and report it\n- Do NOT turn on light switches (spark risk if gas is present)\n- Check for structural damage before moving through hallways\n- Proceed to the assembly point\n\n1.3 Staff Response:\n- Activate earthquake response plan\n- Check all floors for injured or trapped guests\n- Shut off gas lines if trained to do so\n- Check water mains and electrical systems for damage\n- Do NOT re-enter severely damaged buildings\n- Account for all guests at assembly points\n- Contact emergency services for injuries and structural assessment\n\n2. FLOOD",
+    "metadata": {
+      "source": "natural_disaster.txt",
+      "path": "ai_core\\data\\safety_docs\\natural_disaster.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "2. FLOOD\n\n2.1 Before Flooding (Warning Received):\n- Monitor local weather and flood warnings continuously\n- Move critical equipment and valuables to upper floors\n- Prepare sandbags for ground-level entry points\n- Pre-position emergency supplies (water, food, first aid, flashlights)\n- Consider pre-emptive evacuation of ground floor rooms\n- Fuel all emergency vehicles and generators\n- Notify all guests of the flood risk and preparation measures\n\n2.2 During Flooding:\n- Do NOT walk, swim, or drive through flood waters\n- 6 inches of moving water can knock you down\n- 12 inches of moving water can carry away a vehicle\n- Move to upper floors if water is rising\n- Turn off electrical breakers for flooded areas\n- Avoid contact with flood water (it may be contaminated)\n- Stay away from downed power lines\n- Call 911 if anyone is in immediate danger\n\n2.3 After Flooding:\n- Do NOT return to flooded areas until authorities say it is safe\n- Watch for weakened floors, walls, and foundations\n- Clean and disinfect everything that got wet\n- Discard any food that came in contact with flood water\n- Document all damage with photographs for insurance\n- Check for mold growth in the days following the flood\n\n3. SEVERE STORM (THUNDERSTORM, HURRICANE, TYPHOON)",
+    "metadata": {
+      "source": "natural_disaster.txt",
+      "path": "ai_core\\data\\safety_docs\\natural_disaster.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "3. SEVERE STORM (THUNDERSTORM, HURRICANE, TYPHOON)\n\n3.1 Before the Storm:\n- Secure all outdoor furniture, equipment, and decorations\n- Close and lock all windows and doors\n- Draw curtains and blinds (protection from breaking glass)\n- Charge all phones and emergency devices\n- Fill bathtubs with water (backup supply in case water is cut off)\n- Stock each floor with emergency supplies\n- Brief all staff on storm response procedures\n- Move guests from beachfront cabins/villas to the main building\n\n3.2 During the Storm:\n- Stay indoors, away from windows\n- Proceed to interior rooms on lower floors (not basement if flooding is possible)\n- If lightning: stay away from water, plumbing, and electrical equipment\n- Do NOT use corded phones during a thunderstorm\n- If power is lost, use flashlights (not candles)\n- Monitor weather updates via battery-powered radio or phone\n- Do NOT go outside during the eye of a hurricane — the storm will resume\n\n3.3 After the Storm:\n- Wait for the official \"All Clear\" before going outside\n- Watch for downed power lines, broken glass, and debris\n- Check for gas leaks (smell, hissing sounds)\n- Report any damage to the front desk or management\n- Do NOT use tap water until confirmed safe\n- Stay away from damaged structures\n\n4. TSUNAMI\n\n4.1 Warning Signs:\n- Strong earthquake felt near the coast\n- Unusual recession of water from the shoreline\n- Official tsunami warning from authorities\n- Loud roaring sound from the ocean",
+    "metadata": {
+      "source": "natural_disaster.txt",
+      "path": "ai_core\\data\\safety_docs\\natural_disaster.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "4.2 Immediate Actions:\n- Move to HIGH GROUND immediately — at least 100 feet above sea level\n- Move INLAND — at least 2 miles from the coast\n- Do NOT stay to watch — tsunami waves travel at 500+ mph\n- Do NOT return to low areas after the first wave — more waves will follow\n- If on the beach, RUN to the highest point you can reach\n- If in a building, go to the highest floor and move to the inland side\n\n4.3 Staff Response:\n- Sound the tsunami alarm immediately\n- Begin evacuating all beach, pool, and ground-floor areas\n- Direct guests to the highest floors of reinforced concrete buildings\n- If time allows, drive to higher ground\n- Account for all guests after reaching safety\n- Do NOT return until official \"All Clear\" from authorities\n\n5. TORNADO\n\n5.1 During a Tornado Warning:\n- Move immediately to the lowest floor of the building\n- Go to an interior room, hallway, or bathroom (away from windows)\n- Stay away from windows, doors, and outside walls\n- Get under a sturdy piece of furniture\n- Cover your head and neck with your arms or a pillow\n- If outdoors, lie flat in a ditch or low area — cover your head\n- Do NOT stay in a vehicle or mobile structure\n\n5.2 After a Tornado:\n- Check for injuries and provide first aid\n- Do NOT enter damaged buildings\n- Watch for broken glass, nails, and sharp debris\n- Report gas leaks, downed power lines, and structural damage\n- Account for all guests\n\n6. EXTREME HEAT",
+    "metadata": {
+      "source": "natural_disaster.txt",
+      "path": "ai_core\\data\\safety_docs\\natural_disaster.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "6. EXTREME HEAT\n\n6.1 Heat Advisory Response:\n- Ensure all air conditioning is functioning\n- Provide free water at all public areas (lobby, pool, beach)\n- Reduce outdoor activities during peak heat (11 AM - 4 PM)\n- Monitor elderly guests and those with medical conditions\n- Provide shaded areas at all outdoor activity points\n- Watch for signs of heat exhaustion and heatstroke (see Medical Emergency Protocol)\n\n6.2 For Guests:\n- Stay hydrated — drink water regularly\n- Wear light, loose-fitting clothing\n- Use sunscreen (SPF 30 or higher, reapply every 2 hours)\n- Avoid prolonged sun exposure\n- Take breaks in air-conditioned spaces\n- Avoid alcohol during extreme heat (it dehydrates)\n- If you feel dizzy, nauseous, or confused, move to a cool area immediately and tell staff\n\n7. COASTAL STORM SURGE (RESORT-SPECIFIC)\n\n- Storm surge can raise water levels 15+ feet above normal\n- Evacuate all beach-level and ground-floor areas when storm surge is predicted\n- Move all guests to the 3rd floor or higher\n- Secure all watercraft and beach equipment\n- Do NOT attempt to surf, swim, or walk on the beach during storm surge conditions\n- After the surge recedes, check for structural damage before allowing access\n\n8. GENERAL NATURAL DISASTER PREPAREDNESS",
+    "metadata": {
+      "source": "natural_disaster.txt",
+      "path": "ai_core\\data\\safety_docs\\natural_disaster.txt",
+      "chunk_index": 4
+    }
+  },
+  {
+    "content": "8. GENERAL NATURAL DISASTER PREPAREDNESS\n\n8.1 Emergency Kit Locations:\n- Every floor has an emergency kit containing:\n  - First aid supplies\n  - Flashlights and extra batteries\n  - Battery-powered radio\n  - Bottled water\n  - Non-perishable snacks\n  - Emergency blankets\n  - Whistle (for signaling)\n\n8.2 Communication Plan:\n- Staff will communicate via walkie-talkies if phones are down\n- PA system on backup generator power\n- Guest notification via door-to-door visits if electronic systems fail\n- Emergency information posted in the lobby\n\n8.3 Post-Disaster:\n- Do NOT return to your room until cleared by management\n- Follow all instructions from emergency services\n- Hotel will arrange alternative accommodation if the property is uninhabitable\n- Keep all receipts for insurance claims",
+    "metadata": {
+      "source": "natural_disaster.txt",
+      "path": "ai_core\\data\\safety_docs\\natural_disaster.txt",
+      "chunk_index": 5
+    }
+  },
+  {
+    "content": "CRISISBRIDGE AI — RECREATIONAL SAFETY PROTOCOL\nHotel & Resort Emergency Guidelines\n=========================================\n\n1. SPA AND WELLNESS CENTER SAFETY\n\n1.1 General Spa Rules:\n- Inform your therapist of any medical conditions, allergies, or pregnancy\n- Inform staff if you have high blood pressure, heart conditions, or diabetes\n- Remove all jewelry before treatments\n- Drink water before and after treatments to stay hydrated\n- Shower before using shared facilities (sauna, steam room, pool)\n- Do NOT shave or wax within 24 hours before body treatments\n\n1.2 Sauna Safety:\n- Maximum recommended time: 15-20 minutes per session\n- Drink water before and during your sauna session\n- Do NOT use if pregnant, intoxicated, or on blood pressure medication\n- Exit immediately if you feel dizzy, nauseous, or have difficulty breathing\n- Allow your body to cool gradually — do not jump into ice-cold water immediately\n- Do NOT pour anything other than water on the sauna rocks\n- Children under 12 are not permitted in the sauna\n\n1.3 Steam Room Safety:\n- Maximum recommended time: 15 minutes\n- Do NOT use essential oils or other liquids without staff approval\n- Exit immediately if you feel uncomfortable\n- The floor is wet and slippery — walk carefully\n- Do NOT use if you have respiratory conditions (asthma) without doctor's approval\n- Shower after use to remove toxins released through sweating",
+    "metadata": {
+      "source": "recreational_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\recreational_safety.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "1.4 Spa Emergency Response:\n- If a guest faints or collapses during treatment:\n  - Stop the treatment immediately\n  - Place the guest in recovery position (on their side)\n  - Call for medical assistance (dial emergency extension)\n  - Keep the guest warm with towels\n  - Monitor breathing until help arrives\n- If a guest has an allergic reaction to a product:\n  - Remove the product immediately with water\n  - Apply cold compress if skin is irritated\n  - Call for medical assistance\n  - Document the product used and the reaction\n\n2. GYM AND FITNESS CENTER SAFETY\n\n2.1 General Gym Rules:\n- Guests must be 16 or older to use the gym (under 18 with adult supervision)\n- Wipe down equipment after use with provided sanitizing wipes\n- Wear appropriate footwear (closed-toe athletic shoes)\n- Use safety clips on treadmills and weight machines\n- Do NOT drop free weights\n- Ask staff for assistance if unfamiliar with equipment\n- Keep the area around equipment clear\n\n2.2 Gym Emergency Response:\n- If a guest collapses or has a cardiac event:\n  - Call 911 immediately\n  - Use the AED located at the gym entrance\n  - Begin CPR if trained (see Medical Emergency Protocol)\n  - Do NOT move the person unless they are in danger\n- If a guest is injured by equipment:\n  - Stop the equipment immediately (hit emergency stop button)\n  - Assess the injury — call for medical help if needed\n  - Apply first aid (ice for sprains, pressure for cuts)\n  - Document the incident, including the equipment involved",
+    "metadata": {
+      "source": "recreational_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\recreational_safety.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "2.3 Common Gym Injuries:\n- Muscle strains: apply RICE (Rest, Ice, Compression, Elevation)\n- Cuts from equipment: clean with antiseptic, apply bandage\n- Fainting/dizziness: usually from dehydration or overexertion — rest, drink water\n- Treadmill falls: clean any abrasions, check for sprains or fractures\n- Weight drops: assess for broken bones, apply ice, seek medical attention\n\n3. OUTDOOR ADVENTURE ACTIVITIES (RESORT-SPECIFIC)\n\n3.1 Hiking and Nature Trails:\n- Stay on marked trails at all times\n- Inform the front desk of your hiking plans and expected return time\n- Carry water, sunscreen, and a charged phone\n- Wear appropriate footwear (closed-toe, non-slip)\n- Watch for wildlife — do NOT approach or feed wild animals\n- In case of snakebite:\n  - Move away from the snake\n  - Keep the bitten area below heart level\n  - Do NOT try to suck out the venom\n  - Do NOT apply a tourniquet\n  - Call 911 and get to medical help as quickly as possible\n  - Try to remember the snake's appearance for identification\n\n3.2 Cycling and Mountain Biking:\n- Helmets are MANDATORY\n- Check brakes and tires before riding\n- Stay on designated cycling paths\n- Ride single file on roads\n- Use hand signals for turning\n- In case of accident: assess for injuries, do NOT remove the helmet, call for help",
+    "metadata": {
+      "source": "recreational_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\recreational_safety.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "3.3 Zip-lining and Rope Courses:\n- Follow ALL instructions from the activity guide\n- Wear the provided safety harness and helmet at all times\n- Do NOT modify or adjust equipment yourself\n- Weight limits must be strictly observed\n- Do NOT attempt the activity if you have heart conditions or are pregnant\n- In case of equipment malfunction: remain still and calm, call for the guide\n\n3.4 Horseback Riding:\n- Helmets are MANDATORY\n- Always mount and dismount on the left side\n- Keep a safe distance from other horses\n- Do NOT run or make sudden movements around horses\n- In case of a fall:\n  - Protect your head and curl into a ball\n  - Move away from the horse as soon as possible\n  - Check for injuries before standing\n  - Report any fall to the guide immediately\n\n3.5 Golf:\n- Yell \"FORE!\" if your ball heads toward another person\n- Wait until the group ahead is out of range before hitting\n- Never swing a club near another person\n- Lightning protocol: if you hear thunder or see lightning:\n  - Stop play immediately\n  - Do NOT shelter under trees\n  - Go to the clubhouse or a lightning shelter\n  - Avoid holding metal clubs\n  - Resume play only after 30 minutes of no thunder/lightning\n\n4. CHILDREN'S ACTIVITY PROGRAMS (KIDS' CLUB)",
+    "metadata": {
+      "source": "recreational_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\recreational_safety.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "4. CHILDREN'S ACTIVITY PROGRAMS (KIDS' CLUB)\n\n4.1 Safety Requirements:\n- All children must be registered with parent/guardian contact information\n- Allergies and medical conditions must be documented\n- Staff-to-child ratio: minimum 1 adult for every 8 children\n- Children may only be released to registered parents/guardians (ID verification)\n- First aid kit available at all times\n- Staff must have current first aid and CPR certifications\n\n4.2 Activity Safety:\n- Age-appropriate activities only\n- Outdoor activities require sunscreen (applied by parents before drop-off)\n- Water activities: additional lifeguard supervision required\n- All craft supplies must be non-toxic\n- Sharp objects (scissors, etc.) used only with direct staff supervision\n\n4.3 Emergency Procedures:\n- If a child is injured: administer first aid, contact parents immediately\n- If a child goes missing: initiate the Missing Person Protocol immediately\n  - Secure all exits\n  - Begin systematic search of the premises\n  - Contact security and management\n  - Call parents\n  - If not found within 15 minutes, call police\n- If a child has an allergic reaction: administer EpiPen if authorized by parents, call 911\n\n5. NIGHTTIME AND ENTERTAINMENT SAFETY\n\n5.1 Evening Events and Shows:\n- Emergency exits must be clearly marked and unobstructed\n- Staff must know evacuation routes from event spaces\n- Maximum capacity limits must be enforced\n- Fire extinguishers accessible within 75 feet of any point",
+    "metadata": {
+      "source": "recreational_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\recreational_safety.txt",
+      "chunk_index": 4
+    }
+  },
+  {
+    "content": "5.2 Nightclub/Bar Area:\n- Staff trained in responsible alcohol service\n- Intoxicated guests should be offered assistance to their room (escort, wheelchair)\n- Do NOT allow intoxicated guests to swim, drive, or operate any equipment\n- Keep pathways well-lit for guests returning to rooms after dark\n\n5.3 Outdoor Evening Activities (Bonfires, BBQ):\n- Fire pit must be supervised by staff at all times\n- Keep fire extinguisher and water source within reach\n- Maintain a 10-foot clear zone around any open flame\n- Completely extinguish all fires before leaving the area\n- Do NOT allow guests to add fuel to fires (staff only)\n\n6. GENERAL RECREATIONAL SAFETY PRINCIPLES\n\n- Always follow posted rules and signage\n- If you feel unsafe about ANY activity, do NOT participate — inform staff\n- Report any damaged or malfunctioning equipment immediately\n- Do NOT operate recreational equipment while intoxicated\n- Wear appropriate safety gear for all activities\n- Stay hydrated and take breaks, especially in hot weather\n- Inform staff of any pre-existing medical conditions before activities\n- The resort is not liable for injuries resulting from violations of posted rules\n- In case of ANY injury, report it to staff immediately — do NOT wait\n- Emergency services can be reached by dialing 911 or the front desk (dial 0)",
+    "metadata": {
+      "source": "recreational_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\recreational_safety.txt",
+      "chunk_index": 5
+    }
+  },
+  {
+    "content": "CRISISBRIDGE AI — SECURITY INCIDENT PROTOCOL\nHotel & Resort Emergency Guidelines\n=========================================\n\n1. TYPES OF SECURITY INCIDENTS\n\n1.1 Suspicious Person/Activity:\n- Unknown individual loitering in restricted areas\n- Person attempting to access guest rooms without a key\n- Individual photographing security equipment or restricted areas\n- Person behaving erratically or aggressively\n\n1.2 Theft:\n- Guest room burglary\n- Theft from common areas (lobby, pool, restaurant)\n- Vehicle break-in (parking lot)\n- Employee theft\n\n1.3 Unauthorized Access:\n- Entry into staff-only areas\n- Trespassing on resort grounds\n- Tailgating through secure doors\n\n1.4 Assault or Violence:\n- Physical altercation between guests\n- Domestic disturbance in guest rooms\n- Threats against staff or guests\n\n1.5 Active Threat:\n- Armed individual on property\n- Bomb threat\n- Hostage situation\n\n2. RESPONSE PROCEDURES\n\n2.1 Suspicious Person:\n- Do NOT confront the individual directly\n- Observe and note: appearance, clothing, direction of movement, any vehicle\n- Report to hotel security immediately (dial security extension)\n- Security will assess and respond\n- If the person is in a guest area, politely ask \"May I help you?\" to determine if they are a guest\n- If they cannot provide a room number or guest name, escort them to the lobby",
+    "metadata": {
+      "source": "security_protocols.txt",
+      "path": "ai_core\\data\\safety_docs\\security_protocols.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "2.2 Theft Response:\nFor Guests:\n- Report the theft to the front desk immediately\n- Do NOT touch or disturb the scene\n- Make a list of stolen items with descriptions and approximate values\n- Hotel staff will contact local police\n- Request a copy of the police report for insurance purposes\n- Check if the hotel safe was available and whether valuable items were secured\n\nFor Staff:\n- Secure the area where the theft occurred\n- Review CCTV footage if available\n- Interview witnesses\n- File a police report\n- Document everything in the incident log\n\n2.3 Unauthorized Access:\n- Challenge unknown individuals in restricted areas: \"Excuse me, can I help you?\"\n- If they claim to be a guest, verify with the front desk\n- If they are not authorized, politely escort them out\n- Report the incident to security\n- Review and reinforce access control measures\n\n2.4 Assault/Violence:\n- Personal safety is the top priority — do NOT put yourself at risk\n- Call security and police immediately\n- If safe, try to de-escalate verbally: speak calmly, do not argue\n- Clear other guests from the area\n- If someone is injured, call for medical assistance\n- Document the incident thoroughly\n- Offer support to victims (first aid, private area, contact information for local support services)",
+    "metadata": {
+      "source": "security_protocols.txt",
+      "path": "ai_core\\data\\safety_docs\\security_protocols.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "2.5 Active Threat — RUN, HIDE, FIGHT:\nRUN:\n- If there is an accessible escape path, attempt to evacuate\n- Leave belongings behind\n- Help others escape if possible\n- Prevent others from entering the danger zone\n- Call 911 when safe\n\nHIDE:\n- If evacuation is not possible, find a place to hide\n- Lock and barricade doors\n- Turn off lights\n- Silence phones\n- Stay quiet and out of sight\n- Hide behind large objects (desks, beds)\n\nFIGHT:\n- As a LAST resort, and only if your life is in immediate danger\n- Act with physical aggression\n- Use improvised weapons (fire extinguisher, chair, lamp)\n- Commit to your actions — your life depends on it\n\n3. BEACH AND POOL AREA SECURITY (RESORT-SPECIFIC)\n\n3.1 Beach Security:\n- Security patrols should cover beach areas every 30 minutes during operating hours\n- Guest wristbands or key cards required for access to private beach areas\n- Report unregistered individuals on private beach to security\n- Secure any rental equipment (kayaks, paddleboards) when not in use\n- Monitor for unauthorized vendors on resort beach\n\n3.2 Pool Area Security:\n- Pool area is for registered guests only — key card access required\n- No glass containers in the pool area\n- Security cameras should cover all pool entrances\n- Theft of personal belongings at poolside: report immediately\n- Intoxicated individuals must be asked to leave the pool area for safety\n\n4. REPORTING AND DOCUMENTATION",
+    "metadata": {
+      "source": "security_protocols.txt",
+      "path": "ai_core\\data\\safety_docs\\security_protocols.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "4. REPORTING AND DOCUMENTATION\n\n4.1 Incident Report Must Include:\n- Date, time, and exact location of the incident\n- Names and room numbers of involved parties\n- Description of what happened (factual, not opinion)\n- Names of witnesses\n- Actions taken by staff\n- Any police involvement (officer names, badge numbers, report number)\n- Photographs of any evidence or damage\n\n4.2 Guest Communication:\n- Inform affected guests of actions taken\n- Provide police report numbers when available\n- Offer room changes if the guest feels unsafe\n- Maintain confidentiality — do not discuss incidents with uninvolved guests\n- Follow up with affected guests within 24 hours\n\n5. PREVENTION MEASURES\n\n- All exterior doors should be locked after 10 PM (guest key card access only)\n- CCTV cameras at all entrances, parking areas, and common spaces\n- Adequate lighting in all parking areas, pathways, and building exteriors\n- Staff training on recognizing suspicious behavior\n- Regular security patrols of all floors and resort areas\n- Guest room safes available in every room\n- \"Do Not Disturb\" signs should not be honored beyond 24 hours without a welfare check\n- Buddy system for staff working late shifts\n\n6. EMERGENCY CONTACTS\n\n- Hotel Security: Dial extension [configure per property]\n- Local Police: 911 (emergency) or [local non-emergency number]\n- Front Desk: Dial 0\n- General Manager on duty: [configure per property]",
+    "metadata": {
+      "source": "security_protocols.txt",
+      "path": "ai_core\\data\\safety_docs\\security_protocols.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "CRISISBRIDGE AI — WATER SAFETY PROTOCOL\nHotel & Resort Emergency Guidelines\n=========================================\n\n1. SWIMMING POOL SAFETY\n\n1.1 General Pool Rules:\n- No running on the pool deck (wet surfaces are extremely slippery)\n- No diving in shallow areas (minimum depth for diving: 9 feet / 2.7 meters)\n- No glass containers in the pool area\n- Children under 12 must be accompanied by an adult at all times\n- No swimming while intoxicated\n- Shower before entering the pool\n- Report any unsafe conditions to pool staff immediately\n\n1.2 Pool Emergencies:\n- If you see someone in distress in the water, alert the lifeguard IMMEDIATELY\n- Do NOT enter the water to rescue someone unless you are a trained lifeguard\n- Throw a flotation device (life ring, pool noodle) to the person\n- Use the reaching method: extend a pole, towel, or your arm from a safe position\n- If no lifeguard is present, call 911 and begin rescue efforts only if trained\n\n1.3 Lifeguard Coverage:\n- Pool is staffed with lifeguards from 8:00 AM to 8:00 PM daily\n- After-hours swimming is at your own risk (posted signage)\n- Lifeguards are trained in CPR, first aid, and water rescue\n- AED is located at the lifeguard station\n- Lifeguards have authority to close the pool for safety reasons",
+    "metadata": {
+      "source": "water_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\water_safety.txt",
+      "chunk_index": 0
+    }
+  },
+  {
+    "content": "1.4 Drowning Prevention:\n- Drowning is SILENT — victims rarely call for help or wave their arms\n- Signs of drowning:\n  - Head tilted back, mouth at water level\n  - Eyes glassy and unfocused\n  - Vertical body position, not kicking\n  - Attempting to swim but not making progress\n  - Hyperventilating or gasping\n- If someone is missing, CHECK THE POOL FIRST\n\n2. CHILDREN'S POOL AND WATER PLAY AREAS\n\n- Children's pool maximum depth: 18 inches\n- Constant adult supervision required — this is NOT a babysitting area\n- Water play structures: children must follow posted height requirements\n- Infants and toddlers: swim diapers required\n- No roughhousing or pushing near water features\n- Parents should teach children to always ask before entering the water\n\n3. BEACH SAFETY (RESORT-SPECIFIC)\n\n3.1 Beach Rules:\n- Swim only in designated areas marked by flags/buoys\n- Red flag: NO swimming — dangerous conditions\n- Yellow flag: Caution — moderate conditions, swim with care\n- Green flag: Safe — calm conditions\n- Do NOT swim alone — always use the buddy system\n- Do NOT swim at night\n- Do NOT swim near piers, jetties, or rock formations\n- Notify lifeguards if you plan to use personal watercraft",
+    "metadata": {
+      "source": "water_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\water_safety.txt",
+      "chunk_index": 1
+    }
+  },
+  {
+    "content": "3.2 Rip Currents:\n- Rip currents are the #1 beach hazard\n- Signs of a rip current:\n  - A channel of churning, choppy water\n  - A line of foam, seaweed, or debris moving seaward\n  - A break in the incoming wave pattern\n  - Discolored water\n- If caught in a rip current:\n  - Do NOT panic\n  - Do NOT try to swim directly back to shore (you will exhaust yourself)\n  - Swim PARALLEL to the shore until you are out of the current\n  - Then swim diagonally back to shore\n  - If you cannot swim out, float or tread water and wave for help\n  - Call for help — shout and wave one arm\n\n3.3 Marine Hazards:\n- Jellyfish stings:\n  - Exit the water\n  - Rinse with seawater (NOT fresh water)\n  - Remove tentacles with tweezers or a credit card edge (NOT bare hands)\n  - Apply vinegar or baking soda paste\n  - Seek medical attention for severe reactions (difficulty breathing, chest pain)\n- Sea urchins: do NOT step on them, wear water shoes in rocky areas\n- Sharks: if spotted, exit the water calmly, alert lifeguards\n- Coral: do NOT touch or stand on coral (injury risk and environmental damage)\n\n4. WATER SPORTS SAFETY\n\n4.1 Kayaking and Canoeing:\n- Wear a life jacket AT ALL TIMES\n- Check weather conditions before departing\n- Stay within designated water sports zones\n- Do NOT exceed the vessel's weight capacity\n- If capsized: stay with the vessel, it will float\n- Signal for help if unable to return to shore",
+    "metadata": {
+      "source": "water_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\water_safety.txt",
+      "chunk_index": 2
+    }
+  },
+  {
+    "content": "4.2 Paddleboarding (SUP):\n- Wear a life jacket or have one attached to the board\n- Use a leash connecting you to the board\n- Start in calm, shallow water if you are a beginner\n- Check weather and wind conditions before heading out\n- Avoid areas with boat traffic\n\n4.3 Snorkeling:\n- Never snorkel alone — always use the buddy system\n- Check equipment before entering the water (mask seal, snorkel clear)\n- Stay aware of your surroundings and distance from shore\n- Do NOT touch or disturb marine life\n- If feeling tired, float on your back and rest\n- Use a snorkel vest or flotation device if you are not a strong swimmer\n\n4.4 Jet Ski / Personal Watercraft:\n- Minimum age: 16 years (with valid ID)\n- Briefing session required before operation\n- Wear a life jacket at all times\n- Stay within the designated operating area\n- Maintain safe distance from swimmers, boats, and shore (minimum 200 feet)\n- Maximum 2 persons per jet ski\n- Do NOT operate under the influence of alcohol\n\n5. WATER SLIDE SAFETY\n\n- Follow all posted height and weight requirements\n- Wait for the attendant's signal before going down\n- Go feet first, lying on your back\n- Do NOT stand up, kneel, or go headfirst\n- Do NOT stop or slow down in the slide\n- Clear the landing area immediately after arriving\n- Report any injury or unsafe condition to the attendant\n\n6. HOT TUB / JACUZZI SAFETY",
+    "metadata": {
+      "source": "water_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\water_safety.txt",
+      "chunk_index": 3
+    }
+  },
+  {
+    "content": "6. HOT TUB / JACUZZI SAFETY\n\n- Maximum recommended time: 15 minutes\n- Do NOT use if water temperature exceeds 104°F (40°C)\n- Do NOT use if pregnant (consult your doctor)\n- Do NOT use while intoxicated\n- Do NOT submerge your head\n- Children under 5 should NOT use hot tubs\n- Exit immediately if you feel dizzy, nauseous, or overheated\n- Shower before and after use\n- Stay hydrated — drink water before and after\n\n7. DROWNING RESPONSE PROCEDURE\n\nStep 1: Recognize the emergency\n- Drowning is SILENT — look for the signs listed in Section 1.4\n\nStep 2: Alert help\n- Shout for the lifeguard\n- Call 911 or have someone call\n\nStep 3: Reach or throw (do NOT enter the water unless trained)\n- Throw a life ring, pool noodle, or rope\n- Extend a pole, towel, or shepherd's crook\n\nStep 4: If the person is removed from the water:\n- Check for breathing\n- If not breathing, begin CPR immediately (see Medical Emergency Protocol)\n- Use an AED if available\n- Continue until emergency services arrive\n\nStep 5: After rescue:\n- ALL near-drowning victims MUST go to the hospital\n- Secondary drowning can occur 1-24 hours after the incident\n- Symptoms: coughing, chest pain, difficulty breathing, extreme fatigue",
+    "metadata": {
+      "source": "water_safety.txt",
+      "path": "ai_core\\data\\safety_docs\\water_safety.txt",
+      "chunk_index": 4
+    }
+  }
+]
