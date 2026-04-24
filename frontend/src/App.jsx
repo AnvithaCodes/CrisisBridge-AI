@@ -7,6 +7,7 @@ import Register from './views/Register';
 import Dashboard from './views/Dashboard';
 import Chat from './views/Chat';
 import Safety from './views/Safety';
+import Logs from './views/Logs';
 
 const ProtectedRoute = ({ children }) => {
   const { token, loading } = useAuth();
@@ -36,6 +37,10 @@ const AppContent = () => {
           <Route 
             path="/safety" 
             element={<ProtectedRoute><Safety /></ProtectedRoute>} 
+          />
+          <Route 
+            path="/logs" 
+            element={<ProtectedRoute><Logs /></ProtectedRoute>} 
           />
           <Route path="/" element={<Navigate to="/dashboard" />} />
         </Routes>

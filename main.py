@@ -77,12 +77,12 @@ app.add_middleware(
 # ROUTER REGISTRATION
 # ═══════════════════════════════════════════════════════════
 
-# ── Person 1: Incident & Safety Routes (MOCKED) ──────────
-from incidents.mock_routes import router as incidents_router
+# ── Person 1: Incident & Safety Routes (ACTUAL) ──────────
+from incidents.routes import router as incidents_router
 app.include_router(incidents_router, prefix=f"{settings.API_PREFIX}/incidents", tags=["Incidents"])
 
-# ── Person 2: AI Query Routes (MOCKED) ───────────────────
-# Real logic is in ai_core.main.process_query (mocked for now)
+# ── Person 2: AI Query Routes (ACTUAL) ───────────────────
+# Logic is in ai_core.main.process_query (called via /query endpoint)
 
 # ── Person 3: Auth, Feedback, Notifications, Safety, Logs ─────
 from backend.api.auth import router as auth_router

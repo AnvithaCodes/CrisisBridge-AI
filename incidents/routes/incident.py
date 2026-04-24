@@ -1,19 +1,13 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from database import SessionLocal
-from schemas import *
-from services import *
+from shared.dependencies import get_db
+from ..schemas import IncidentCreate, IncidentStatusUpdate
+from ..services import create_incident, fetch_incidents, update_incident_status
+from shared.enums import IncidentStatus
 
-router = APIRouter(prefix="/incident")
+router = APIRouter()
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
-
-@router.post("/")
+@router.post("/report")
 def report_incident(data: IncidentCreate, db: Session = Depends(get_db)):
     incident = create_incident(db, data)
     return {
@@ -25,9 +19,12 @@ def report_incident(data: IncidentCreate, db: Session = Depends(get_db)):
 @router.get("/")
 def read_incidents(db: Session = Depends(get_db)):
     incidents = fetch_incidents(db)
+    active_count = len([i for i in incidents if i.status not in [IncidentStatus.RESOLVED, IncidentStatus.CLOSED]])
     return {
         "success": True,
-        "data": incidents,
+        "incidents": incidents,
+        "active_count": active_count,
+        "resolved_today": 0, # Placeholder for now
         "message": "All incidents"
     }
 

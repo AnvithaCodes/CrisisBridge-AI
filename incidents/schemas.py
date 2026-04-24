@@ -1,9 +1,11 @@
 from pydantic import BaseModel
 
 class IncidentCreate(BaseModel):
-    type: str
+    title: str
+    incident_type: str
     latitude: float
     longitude: float
+    reporter_id: int
 
 class IncidentStatusUpdate(BaseModel):
     incident_id: int

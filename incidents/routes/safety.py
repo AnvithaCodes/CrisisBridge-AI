@@ -1,18 +1,13 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from database import SessionLocal
-from services import get_active_incidents
-from schemas import SafetyRequest
-from utils.distance import calculate_distance, get_safety_status
+from shared.dependencies import get_db
+from ..services import get_active_incidents
+from ..schemas import SafetyRequest
+from shared.utils import calculate_distance_meters, determine_safety_level
 
 router = APIRouter()
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+# Using shared get_db dependency
 
 @router.post("/safety-check")
 def safety_check(req: SafetyRequest, db: Session = Depends(get_db)):
@@ -29,21 +24,22 @@ def safety_check(req: SafetyRequest, db: Session = Depends(get_db)):
     nearest = None
 
     for inc in incidents:
-        dist = calculate_distance(req.user_lat, req.user_lon, inc.latitude, inc.longitude)
+        dist = calculate_distance_meters(req.user_lat, req.user_lon, inc.latitude, inc.longitude)
         if dist < min_dist:
             min_dist = dist
             nearest = inc
 
-    status = get_safety_status(min_dist)
+    safety_status = determine_safety_level(min_dist)
+    status = safety_status.value
 
     return {
         "success": True,
         "data": {
             "status": status,
-            "nearest_distance_km": round(min_dist, 2),
+            "nearest_distance_km": round(min_dist / 1000, 2),
             "nearest_incident": {
                 "id": nearest.id,
-                "type": nearest.type
+                "type": nearest.incident_type.value
             }
         },
         "message": "Safety evaluated"

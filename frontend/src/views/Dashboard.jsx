@@ -8,6 +8,15 @@ const Dashboard = () => {
   const [incidents, setIncidents] = useState([]);
   const [stats, setStats] = useState({ active: 0, resolved: 0 });
   const [loading, setLoading] = useState(true);
+  const [showReportModal, setShowReportModal] = useState(false);
+  const [reportData, setReportData] = useState({
+    title: '',
+    incident_type: 'fire',
+    severity: 'medium',
+    description: '',
+    floor: 1,
+    zone: 'lobby'
+  });
   const { user } = useAuth();
 
   const fetchDashboardData = async () => {
@@ -41,12 +50,35 @@ const Dashboard = () => {
         description: `User ${user.full_name} initiated emergency panic alert.`,
         floor: user.current_floor || 1,
         room: user.current_room || 'Lobby',
-        zone: user.current_zone || 'Main'
+        zone: user.current_zone || 'Main',
+        reporter_id: user.id
       });
       fetchDashboardData();
       alert("🚨 Emergency reported! Help is on the way.");
     } catch (err) {
       alert("Failed to report emergency.");
+    }
+  };
+
+  const submitReport = async (e) => {
+    e.preventDefault();
+    try {
+      await axios.post('/api/v1/incidents/report', {
+        ...reportData,
+        reporter_id: user.id
+      });
+      setShowReportModal(false);
+      setReportData({
+        title: '',
+        incident_type: 'fire',
+        severity: 'medium',
+        description: '',
+        floor: user.current_floor || 1,
+        zone: user.current_zone || 'lobby'
+      });
+      fetchDashboardData();
+    } catch (err) {
+      alert("Failed to submit report.");
     }
   };
 
@@ -70,11 +102,91 @@ const Dashboard = () => {
           <h1>Live Incident Dashboard</h1>
           <p className="text-muted mt-2">Real-time emergency monitoring and coordination</p>
         </div>
-        <button className="btn btn-danger pulse-red" onClick={handlePanic} style={{ padding: '1rem 2rem', fontSize: '1rem' }}>
-          <AlertOctagon size={24} />
-          PANIC BUTTON
-        </button>
+        <div style={{ display: 'flex', gap: '1rem' }}>
+          <button className="btn btn-ghost" onClick={() => setShowReportModal(true)} style={{ padding: '1rem 1.5rem' }}>
+            <Activity size={20} />
+            REPORT INCIDENT
+          </button>
+          <button className="btn btn-danger pulse-red" onClick={handlePanic} style={{ padding: '1rem 2rem', fontSize: '1rem' }}>
+            <AlertOctagon size={24} />
+            PANIC BUTTON
+          </button>
+        </div>
       </div>
+
+      <AnimatePresence>
+        {showReportModal && (
+          <div className="modal-overlay" style={{
+            position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.8)', 
+            display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000,
+            backdropFilter: 'blur(8px)'
+          }}>
+            <motion.div 
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              className="glass-card" 
+              style={{ width: '100%', maxWidth: '500px', padding: '2rem' }}
+            >
+              <h2 style={{ marginBottom: '1.5rem' }}>Report Incident</h2>
+              <form onSubmit={submitReport} className="flex flex-col gap-4">
+                <div className="input-group">
+                  <label>Title</label>
+                  <input 
+                    className="input-field" 
+                    placeholder="Brief summary..." 
+                    value={reportData.title}
+                    onChange={e => setReportData({...reportData, title: e.target.value})}
+                    required
+                  />
+                </div>
+                <div className="flex gap-4">
+                  <div className="input-group flex-1">
+                    <label>Type</label>
+                    <select 
+                      className="input-field"
+                      value={reportData.incident_type}
+                      onChange={e => setReportData({...reportData, incident_type: e.target.value})}
+                    >
+                      <option value="fire">Fire</option>
+                      <option value="medical">Medical</option>
+                      <option value="security">Security</option>
+                      <option value="infrastructure">Infrastructure</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+                  <div className="input-group flex-1">
+                    <label>Severity</label>
+                    <select 
+                      className="input-field"
+                      value={reportData.severity}
+                      onChange={e => setReportData({...reportData, severity: e.target.value})}
+                    >
+                      <option value="low">Low</option>
+                      <option value="medium">Medium</option>
+                      <option value="high">High</option>
+                      <option value="critical">Critical</option>
+                    </select>
+                  </div>
+                </div>
+                <div className="input-group">
+                  <label>Description</label>
+                  <textarea 
+                    className="input-field" 
+                    rows="3" 
+                    placeholder="What happened?"
+                    value={reportData.description}
+                    onChange={e => setReportData({...reportData, description: e.target.value})}
+                  />
+                </div>
+                <div className="flex gap-4 mt-4">
+                  <button type="button" className="btn btn-ghost flex-1" onClick={() => setShowReportModal(false)}>CANCEL</button>
+                  <button type="submit" className="btn btn-primary flex-1">SUBMIT REPORT</button>
+                </div>
+              </form>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 320px', gap: '2rem' }}>
         {/* Main Feed */}
