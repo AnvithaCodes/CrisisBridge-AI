@@ -58,6 +58,12 @@ class Settings(BaseSettings):
 
     # ── Session Memory ───────────────────────────
     SESSION_MEMORY_SIZE: int = 5  # Last N queries to remember
+    
+    # ── AI / GCP Toggles ─────────────────────────
+    AI_MOCK_MODE: bool = True
+    AI_USE_VERTEX: bool = False
+    GCP_PROJECT_ID: str = ""
+    GCP_LOCATION: str = "us-central1"
 
     # ── Safety System ────────────────────────────
     SAFETY_RADIUS_WARNING_METERS: float = 100.0  # Warning zone radius
